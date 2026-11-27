@@ -56,3 +56,14 @@ test('filterNew убирает уже известные точки и повт�
   assert.equal(filterNew([...c, ...c], []).length, 1);
   assert.equal(filterNew(c, [{ ...c[0], id: 'other' }]).length, 0);
 });
+
+import { applyPost, needsEnrich } from '../scripts/lib/photos.mjs';
+test('applyPost добавляет текст и локальные картинки, needsEnrich видит недостающее', () => {
+  const spot = { id: 'a', post: 'https://t.me/x/1', photos: ['https://cdn.telesco.pe/file/a.jpg'] };
+  assert.equal(needsEnrich(spot), true);
+  const next = applyPost(spot, { text: 'Текст', date: '2026-11-01T10:00:00+00:00' }, ['data/photos/x-1-1.jpg']);
+  assert.deepEqual(next.photos, ['data/photos/x-1-1.jpg']);
+  assert.equal(next.postText, 'Текст');
+  assert.equal(needsEnrich(next), false);
+  assert.equal(needsEnrich({ id: 'b', photos: [] }), false);
+});

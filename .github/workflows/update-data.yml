@@ -14,13 +14,14 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/fetch-telegram.mjs --pages 3
+      - run: node scripts/enrich-posts.mjs
       - run: npm run check
       # Очередь кандидатов на сайте не видна, поэтому коммитим её сразу в main, без pull request.
       - name: Commit inbox
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/inbox.json data/inbox-state.json
+          git add data/inbox.json data/inbox-state.json data/spots.json data/photos
           git diff --cached --quiet && echo "Новых кандидатов нет" && exit 0
           git commit -m "Новые кандидаты из Telegram"
           git push

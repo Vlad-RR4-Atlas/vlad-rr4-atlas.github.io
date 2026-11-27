@@ -49,24 +49,72 @@ export function mountSpots(data, { goTo }) {
         ${s.verified ? '' : '<span class="badge badge-warn" title="Эту точку не подтвердили игроки">не подтверждено</span>'}
         <button type="button" class="fav" data-fav="${esc(s.id)}" aria-pressed="${fav}" aria-label="В избранное">${STAR_ICON}</button>
       </div>
+      ${cover(s)}
       <h3>${esc(s.fish ?? 'Рыба не указана')}</h3>
       <div class="coordrow">${stamp}<button type="button" class="mini" data-chat="${esc(s.id)}">В чат</button></div>
       <dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl>
-      ${shots(s)}
-      <div class="src srcline">Источник: ${sourcesHtml(s.sources, sources)}</div>
+      <div class="srcline src">Источник: ${sourcesHtml(s.sources, sources)}</div>
+      ${s.post || s.postText || localPhotos(s).length ? `<button type="button" class="btn small" data-open="${esc(s.id)}">Открыть карточку</button>` : ''}
     </article>`;
   }
 
-  /** Скриншоты из поста-источника (ссылки на CDN Telegram) и ссылка на сам пост. */
-  function shots(s) {
-    const photos = (s.photos ?? []).slice(0, 4);
-    if (!photos.length && !s.post) return '';
-    const thumbs = photos
-      .map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer"><img src="${esc(u)}" alt="Скриншот ${i + 1} из поста: рыба и сборка" loading="lazy" referrerpolicy="no-referrer"></a>`)
-      .join('');
-    const link = s.post ? `<a class="postlink" href="${esc(s.post)}" target="_blank" rel="noopener noreferrer">Открыть пост${photos.length ? ' со скриншотами' : ''}</a>` : '';
-    return `<div class="shots">${thumbs}${link}</div>`;
+  const localPhotos = (s) => (s.photos ?? []).filter((u) => u.startsWith('data/'));
+
+  /** Обложка карточки: первый скриншот и счётчик остальных. Открывает подробную карточку. */
+  function cover(s) {
+    const photos = localPhotos(s);
+    if (!photos.length) return '';
+    const more = photos.length > 1 ? `<span class="more">+${photos.length - 1}</span>` : '';
+    return `<button type="button" class="cover" data-open="${esc(s.id)}" aria-label="Открыть карточку: ${esc(s.fish ?? 'точка')}, фотографий ${photos.length}">
+      <img src="${esc(photos[0])}" alt="" loading="lazy">${more}</button>`;
   }
+
+  const dlg = $('#spotDialog');
+
+  /** Подробная карточка: всё, что известно о точке, текст поста, все скриншоты и ссылка на пост. */
+  function detail(s) {
+    const rows = [['Водоём', waterName(s.water)], ['Рыба', s.fish ?? 'Не указана']];
+    if (s.bait) rows.push(['Наживка', s.bait]);
+    if (s.groundbait) rows.push(['Прикормка', s.groundbait]);
+    if (s.clip) rows.push(['Клипса', s.clip]);
+    if (s.note) rows.push(['Заметка', s.note]);
+    const photos = localPhotos(s)
+      .map((u, i) => `<figure><a href="${esc(u)}" target="_blank" rel="noopener noreferrer"><img src="${esc(u)}" alt="Скриншот ${i + 1} из поста" loading="lazy"></a></figure>`)
+      .join('');
+    const date = s.postDate ? ` · ${esc(new Date(s.postDate).toLocaleDateString('ru-RU'))}` : '';
+    return `<div class="detail-head">
+        <h3 id="spotDialogTitle">${esc(s.fish ?? 'Рыба не указана')} <span class="muted">· ${esc(waterName(s.water))}</span></h3>
+        <button type="button" class="mini" data-close>Закрыть</button>
+      </div>
+      <div class="coordrow">${s.coord
+        ? `<span class="coord">${CROSS_ICON}<span>${esc(s.coord)}</span></span><button type="button" class="mini" data-copy="${esc(s.coord)}">Копировать</button>`
+        : `<span class="coord coord-text">${esc(s.place)}</span>`}
+        <button type="button" class="mini" data-chat="${esc(s.id)}">В чат</button>
+        ${s.verified ? '' : '<span class="badge badge-warn">не подтверждено</span>'}</div>
+      <dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl>
+      ${s.postText ? `<h4>Описание из поста${date}</h4><p class="posttext">${esc(s.postText)}</p>` : ''}
+      ${photos ? `<h4>Скриншоты</h4><div class="gallery">${photos}</div>` : ''}
+      <p class="src srcline">Источник: ${sourcesHtml(s.sources, sources)}${s.post ? ` · <a href="${esc(s.post)}" target="_blank" rel="noopener noreferrer">Открыть оригинальный пост</a>` : ''}</p>`;
+  }
+
+  let opener = null;
+  function openDetail(id, from) {
+    const s = spotById.get(id);
+    if (!s) return;
+    opener = from ?? null;
+    dlg.innerHTML = detail(s);
+    dlg.dataset.id = id;
+    if (!dlg.open) dlg.showModal();
+    dlg.scrollTop = 0;
+  }
+  dlg.addEventListener('click', (event) => {
+    const btn = event.target.closest('button');
+    if (event.target === dlg || btn?.hasAttribute('data-close')) return dlg.close();
+    if (!btn) return;
+    if (btn.dataset.copy) copyText(btn.dataset.copy, btn);
+    else if (btn.dataset.chat) { const s = spotById.get(btn.dataset.chat); if (s) copyText(lineFor(s, waterName(s.water)), btn); }
+  });
+  dlg.addEventListener('close', () => { opener?.focus?.(); opener = null; });
 
   function render() {
     shown = filterSpots(spots, { water: select.value, query: $('#spotQ').value, favs, favOnly });
@@ -89,7 +137,9 @@ export function mountSpots(data, { goTo }) {
   list.addEventListener('click', (event) => {
     const btn = event.target.closest('button');
     if (!btn) return;
-    if (btn.dataset.copy) {
+    if (btn.dataset.open) {
+      openDetail(btn.dataset.open, btn);
+    } else if (btn.dataset.copy) {
       copyText(btn.dataset.copy, btn);
     } else if (btn.dataset.chat) {
       const s = spotById.get(btn.dataset.chat);

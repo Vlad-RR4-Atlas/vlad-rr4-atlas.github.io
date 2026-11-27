@@ -81,7 +81,7 @@ export function extractSpots(post, { waters, fishNames, sourceId }) {
   const unique = [...new Set(coords)];
   for (const coord of unique) {
     for (const f of fish.length ? fish.slice(0, 3) : [null]) {
-      const spot = { id: '', water: water.id, fish: f, coord, place: null, bait, groundbait, clip: null, note: null, verified: false, sources: [sourceId], post: post.url, photos: post.photos ?? [] };
+      const spot = { id: '', water: water.id, fish: f, coord, place: null, bait, groundbait, clip: null, note: null, verified: false, sources: [sourceId], post: post.url, postText: post.text, postDate: post.date ?? null, photos: post.photos ?? [] };
       spot.id = slug([water.id, f ?? 'ryba', coord, 'tg', post.id].join(' '));
       out.push(spot);
     }
