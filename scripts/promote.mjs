@@ -21,7 +21,7 @@ if (values.list || (!values.ids && !values.reject)) {
 
 const accept = split(values.ids), reject = split(values.reject);
 const data = await readAll();
-const take = inbox.filter((c) => accept.has(c.id)).map((spot) => ({ ...spot, verified: false }));
+const take = inbox.filter((c) => accept.has(c.id)).map((spot) => ({ ...spot, verified: false, addedAt: new Date().toISOString().slice(0, 10) }));
 const next = { ...data, spots: [...data.spots, ...take] };
 const errors = validate(next);
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }

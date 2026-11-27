@@ -51,6 +51,7 @@ export function validate({ meta, sources, waters, spots, reels, rods, builds }) 
     if (s.postText != null && typeof s.postText !== 'string') err(at, 'postText должен быть строкой');
     if (s.post != null && !/^https:\/\/t\.me\//.test(s.post)) err(at, 'post должен быть ссылкой https://t.me/…');
     if (s.groundbait != null && typeof s.groundbait !== 'string') err(at, 'groundbait должен быть строкой');
+    if (s.addedAt != null && !DATE.test(s.addedAt)) err(at, 'addedAt должен быть датой ГГГГ-ММ-ДД');
     if (typeof s.verified !== 'boolean') err(at, 'verified должен быть true или false');
     if (!known(s.sources)) err(at, 'неизвестный источник');
   });

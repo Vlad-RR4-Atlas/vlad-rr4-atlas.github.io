@@ -44,3 +44,17 @@ export function tierOf(level) {
   if (!level || level < 12) return 1;
   return level <= 24 ? 2 : 3;
 }
+
+/** Дата записи для сортировки: дата поста-источника или дата добавления, иначе null. */
+export function freshness(spot) {
+  const t = Date.parse(spot.postDate ?? spot.addedAt ?? '');
+  return Number.isNaN(t) ? null : t;
+}
+
+/** Самые свежие сверху. Записи без даты идут после датированных в прежнем порядке. */
+export function sortByFreshness(spots) {
+  return spots
+    .map((spot, index) => ({ spot, index, t: freshness(spot) }))
+    .sort((a, b) => (a.t === null) - (b.t === null) || (b.t ?? 0) - (a.t ?? 0) || a.index - b.index)
+    .map((x) => x.spot);
+}

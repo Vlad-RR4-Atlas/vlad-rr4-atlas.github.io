@@ -1,7 +1,7 @@
 // Раздел «Точки клёва»: список, фильтры, избранное, строка для чата, случайная точка.
 import { $, $$, copyText } from '../dom.js';
 import { esc, plural } from '../lib/format.js';
-import { filterSpots, lineFor, pickSpot } from '../lib/filters.js';
+import { filterSpots, freshness, lineFor, pickSpot, sortByFreshness } from '../lib/filters.js';
 import { storage } from '../lib/storage.js';
 import { CROSS_ICON, STAR_ICON, sourcesHtml, tierBars } from './shared.js';
 
@@ -48,6 +48,7 @@ export function mountSpots(data, { goTo }) {
       <div class="spot-top">${tierBars(waterById.get(s.water)?.level)}
         <span class="water-tag">${esc(waterName(s.water))}</span>
         ${s.verified ? '' : '<span class="badge badge-warn" title="Эту точку не подтвердили игроки">не подтверждено</span>'}
+        ${freshness(s) ? `<time class="age" datetime="${esc(s.postDate ?? s.addedAt)}">${esc(new Date(freshness(s)).toLocaleDateString('ru-RU'))}</time>` : ''}
         <button type="button" class="fav" data-fav="${esc(s.id)}" aria-pressed="${fav}" aria-label="В избранное">${STAR_ICON}</button>
       </div>
       ${cover(s)}
@@ -118,8 +119,8 @@ export function mountSpots(data, { goTo }) {
   dlg.addEventListener('close', () => { opener?.focus?.(); opener = null; });
 
   function render() {
-    shown = filterSpots(spots, { water: select.value, query: $('#spotQ').value, favs, favOnly, photoOnly });
-    $('#spotCount').textContent = `Найдено: ${shown.length} ${plural(shown.length, 'точка', 'точки', 'точек')}`;
+    shown = sortByFreshness(filterSpots(spots, { water: select.value, query: $('#spotQ').value, favs, favOnly, photoOnly }));
+    $('#spotCount').textContent = `Найдено: ${shown.length} ${plural(shown.length, 'точка', 'точки', 'точек')}, сначала свежие`;
     list.innerHTML = shown.length
       ? shown.map(card).join('')
       : `<div class="empty">${favOnly
