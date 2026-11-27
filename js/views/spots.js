@@ -16,6 +16,7 @@ export function mountSpots(data, { goTo }) {
   const stored = storage.get(FAV_KEY, []);
   const favs = new Set(Array.isArray(stored) ? stored.filter((id) => spotById.has(id)) : []);
   let favOnly = false;
+  let photoOnly = false;
   let shown = [];
   let lastPick = null;
 
@@ -117,12 +118,13 @@ export function mountSpots(data, { goTo }) {
   dlg.addEventListener('close', () => { opener?.focus?.(); opener = null; });
 
   function render() {
-    shown = filterSpots(spots, { water: select.value, query: $('#spotQ').value, favs, favOnly });
+    shown = filterSpots(spots, { water: select.value, query: $('#spotQ').value, favs, favOnly, photoOnly });
     $('#spotCount').textContent = `Найдено: ${shown.length} ${plural(shown.length, 'точка', 'точки', 'точек')}`;
     list.innerHTML = shown.length
       ? shown.map(card).join('')
       : `<div class="empty">${favOnly
           ? 'В избранном пока пусто. Нажмите звёздочку на карточке точки.'
+          : photoOnly ? 'Точек со скриншотами по этому запросу нет.'
           : 'Ничего не найдено. Попробуйте другое слово или выберите все водоёмы.'}</div>`;
   }
 
@@ -131,6 +133,12 @@ export function mountSpots(data, { goTo }) {
   $('#favOnly').addEventListener('click', (event) => {
     favOnly = !favOnly;
     event.currentTarget.setAttribute('aria-pressed', String(favOnly));
+    render();
+  });
+
+  $('#photoOnly').addEventListener('click', (event) => {
+    photoOnly = !photoOnly;
+    event.currentTarget.setAttribute('aria-pressed', String(photoOnly));
     render();
   });
 

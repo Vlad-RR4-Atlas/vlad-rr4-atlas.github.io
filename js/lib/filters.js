@@ -2,13 +2,14 @@
 
 /**
  * @param {object[]} spots
- * @param {{water?: string, query?: string, favs?: Set<string>, favOnly?: boolean}} opts
+ * @param {{water?: string, query?: string, favs?: Set<string>, favOnly?: boolean, photoOnly?: boolean}} opts
  */
-export function filterSpots(spots, { water = '', query = '', favs = new Set(), favOnly = false } = {}) {
+export function filterSpots(spots, { water = '', query = '', favs = new Set(), favOnly = false, photoOnly = false } = {}) {
   const q = query.trim().toLowerCase();
   return spots.filter((s) => {
     if (water && s.water !== water) return false;
     if (favOnly && !favs.has(s.id)) return false;
+    if (photoOnly && !(s.photos ?? []).some((u) => u.startsWith('data/'))) return false;
     if (q) {
       const haystack = [s.fish, s.bait, s.groundbait, s.note].filter(Boolean).join(' ').toLowerCase();
       if (!haystack.includes(q)) return false;

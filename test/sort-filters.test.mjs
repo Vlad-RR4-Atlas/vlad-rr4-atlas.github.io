@@ -38,3 +38,8 @@ test('pickSpot предпочитает записи с рыбой и не по�
 test('tierOf', () => {
   assert.deepEqual([null, 1, 11, 12, 24, 25].map(tierOf), [1, 1, 1, 2, 2, 3]);
 });
+
+test('filterSpots: только со скриншотами', () => {
+  const list = [{ id: 'a', photos: ['data/photos/a.jpg'] }, { id: 'b', photos: ['https://x/y.jpg'] }, { id: 'c' }];
+  assert.deepEqual(filterSpots(list, { photoOnly: true }).map((s) => s.id), ['a']);
+});
