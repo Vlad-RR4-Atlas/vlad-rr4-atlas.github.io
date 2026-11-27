@@ -1937,5 +1937,31 @@
     ],
     "postText": "#куори@rr4fiching\n#трофей@rr4fiching\n\n🐟 Рыба: Форель ручьевая\n🗺 Точка клева: 129:109",
     "postDate": "2026-11-26T18:00:20+00:00"
+  },
+  {
+    "id": "ahtuba-ersh-46-146-tg-116042",
+    "water": "ahtuba",
+    "fish": "Ёрш",
+    "coord": "46:146",
+    "place": null,
+    "bait": null,
+    "groundbait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-rr4pepper"
+    ],
+    "post": "https://t.me/rr4pepper/116042",
+    "postText": "#ахтуба@rr4pepper\n⭐Ерш\n📌 Точка 46:146, клипса 15\n👤 Автор: ТЭДДИ\n💬 всем нхнч!!!\n\n✍️ Предложить пост\n🗺 Поиск по водоёмам\n🛒 Барахолка",
+    "postDate": "2026-11-27T11:45:49+00:00",
+    "photos": [
+      "data/photos/rr4pepper-116042-1.jpg",
+      "data/photos/rr4pepper-116042-2.jpg",
+      "data/photos/rr4pepper-116042-3.jpg",
+      "data/photos/rr4pepper-116042-4.jpg",
+      "data/photos/rr4pepper-116042-5.jpg"
+    ],
+    "addedAt": "2026-11-27"
   }
 ]
