@@ -15,6 +15,7 @@
     "build": "node scripts/build.mjs",
     "import": "node scripts/import.mjs",
     "fetch": "node scripts/fetch-telegram.mjs",
-    "promote": "node scripts/promote.mjs"
+    "promote": "node scripts/promote.mjs",
+    "build:flat": "node scripts/build-flat.mjs"
   }
 }

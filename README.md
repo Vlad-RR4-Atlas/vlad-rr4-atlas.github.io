@@ -34,6 +34,12 @@ npm run build     # готовый сайт в dist/
 
 Подойдёт и Cloudflare Pages: команда сборки `npm run build`, папка `dist`.
 
+## Самая простая выкладка: три файла
+
+`npm run build:flat` собирает папку `site/` из трёх файлов (`index.html`, `app.js`, `styles.css`), данные уже внутри.
+Их достаточно загрузить в корень репозитория и включить Settings → Pages → Deploy from a branch → `main` / `(root)`.
+Готовую папку `site/` можно положить на любой хостинг.
+
 ## Автосбор из Telegram
 
 Раз в сутки GitHub Actions читает публичные каналы из `data/channels.json` и открывает pull request с кандидатами в точки. На сайт они попадают только после вашей проверки. Подробности в `docs/DATA.md`.
