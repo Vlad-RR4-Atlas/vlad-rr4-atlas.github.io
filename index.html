@@ -128,21 +128,19 @@
 
 <section id="v-build" role="tabpanel" aria-labelledby="t-build" hidden>
   <h2>Сборка по бюджету</h2>
-  <p class="lead">Помощник подбирает катушку под ваш бюджет и цель, затем подсказывает, какую леску к ней взять. Он работает по правилам из таблицы катушек. Спиннинговые удилища и леска с ценами пока не добавлены, но проверенные комплекты есть в разделе «Готовые сборки».</p>
+  <p class="lead">Помощник подбирает удилище и катушку под ваш бюджет и уровень. Выбор идёт по прочности механизма катушки, а не по фрикциону: удилище берётся под механизм, и пара оценивается по слабому звену. Для болонки и джерка есть и удилища, и катушки. Для спиннинга пока подбирается только катушка, у спиннинговых удилищ в таблицах нет теста.</p>
   <div class="build">
     <div class="panel">
-      <div class="field"><label for="bBudget">Бюджет на катушку, серебро</label>
+      <div class="field"><label for="bBudget" id="bBudgetLabel">Бюджет, серебро</label>
         <input id="bBudget" type="number" min="0" step="100" value="10000" inputmode="numeric">
         <input id="bBudgetR" type="range" min="0" max="60000" step="500" value="10000" aria-label="Бюджет, ползунок"></div>
       <div class="field"><label for="bLevel">Ваш уровень</label><input id="bLevel" type="number" min="1" max="50" value="28" inputmode="numeric"></div>
-      <div class="field"><label for="bType">Тип катушки</label>
-        <select id="bType"><option value="spin">Безынерционная</option><option value="multi">Мультипликаторная</option></select></div>
-      <div class="field"><label for="bTarget">Кого ловим</label>
-        <select id="bTarget">
-          <option value="s">Мелкая рыба, до 9 кг фрикциона</option>
-          <option value="m">Средняя рыба, 9-17 кг</option>
-          <option value="l" selected>Крупная рыба, 17-26 кг</option>
-          <option value="x">Гиганты, от 26 кг</option>
+      <div class="field"><label for="bType">Что собираем</label>
+        <select id="bType">
+          <option value="bolo">Болонка: удилище и катушка</option>
+          <option value="jerk">Джерк: удилище и мультипликатор</option>
+          <option value="spin">Спиннинг: только катушка</option>
+          <option value="multi">Мультипликатор: только катушка</option>
         </select></div>
     </div>
     <div id="buildOut" aria-live="polite"></div>
