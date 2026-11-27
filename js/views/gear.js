@@ -51,8 +51,10 @@ export function mountGear(data, { kind, root }) {
         <dt>Изнашиваемая часть</dt><dd>${fmt(r.wearing, 2)} кг, осталось ${fmt(r.wearingLeft, 2)} кг</dd>
         <dt>Сейчас</dt><dd><b>${fmt(r.current, 2)} кг</b> (${left}% от новой)</dd>
       </dl>
-      <div class="meter" role="img" aria-label="Осталось ${left}% прочности ${conf.part}"><i style="width:${left}%"></i></div>
+      <div class="meter" role="img" aria-label="Осталось ${left}% прочности ${conf.part}"><i></i></div>
       <p class="src srcline">Источник: ${sourcesHtml(gear.sources, data.sources)}</p>`;
+    // Ширина задаётся через DOM: атрибут style в разметке запрещён политикой безопасности страницы.
+    out.querySelector('.meter i').style.width = `${left}%`;
   }
 
   cat.addEventListener('input', () => { fillItems(); render(); });

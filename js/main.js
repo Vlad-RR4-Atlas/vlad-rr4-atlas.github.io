@@ -53,14 +53,26 @@ async function start() {
     updated.dateTime = data.meta.updatedAt;
     const linked = Object.keys(data.sources).filter((id) => data.sources[id].url);
     $('#sourceList').innerHTML = `Источники: ${sourcesHtml(linked, data.sources)}.`;
-    const spotsView = mountSpots(data, { goTo: (v) => router.show(v) });
-    mountReels(data);
-    mountGear(data, { kind: 'reel', root: '#gearReels' });
-    mountGear(data, { kind: 'rod', root: '#gearRods' });
-    mountRods(data);
-    mountBuilds(data);
-    mountWaters(data, { onShowSpots: (id) => { spotsView.filterByWater(id); router.show('spots'); }, onOpenSpot: (id, from) => spotsView.openDetail(id, from) });
-    mountBuilder(data);
+    // Каждый раздел собирается отдельно: ошибка в одном не должна прятать остальные.
+    const failed = [];
+    const safe = (name, fn) => { try { return fn(); } catch (error) { console.error(name, error); failed.push(name); return null; } };
+    const spotsView = safe('Точки', () => mountSpots(data, { goTo: (v) => router.show(v) }));
+    safe('Катушки', () => mountReels(data));
+    safe('Прочность катушек', () => mountGear(data, { kind: 'reel', root: '#gearReels' }));
+    safe('Удилища', () => mountRods(data));
+    safe('Прочность удилищ', () => mountGear(data, { kind: 'rod', root: '#gearRods' }));
+    safe('Сборки', () => mountBuilds(data));
+    safe('Водоёмы', () => mountWaters(data, {
+      onShowSpots: (id) => { spotsView?.filterByWater(id); router.show('spots'); },
+      onOpenSpot: (id, from) => spotsView?.openDetail(id, from),
+    }));
+    safe('Помощник по бюджету', () => mountBuilder(data));
+    if (failed.length) {
+      status.hidden = false;
+      status.className = 'status error';
+      status.textContent = `Не открылись разделы: ${failed.join(', ')}. Обновите страницу сочетанием Ctrl+F5.`;
+      return;
+    }
     status.hidden = true;
   } catch (error) {
     showError(error);
