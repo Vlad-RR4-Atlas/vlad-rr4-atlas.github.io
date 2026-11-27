@@ -81,7 +81,7 @@ export function mountSpots(data, { goTo }) {
     if (s.clip) rows.push(['Клипса', s.clip]);
     if (s.note) rows.push(['Заметка', s.note]);
     const photos = localPhotos(s)
-      .map((u, i) => `<figure><a href="${esc(u)}" target="_blank" rel="noopener noreferrer"><img src="${esc(u)}" alt="Скриншот ${i + 1} из поста" loading="lazy"></a></figure>`)
+      .map((u, i) => `<figure><button type="button" class="shot" data-shot="${i}" aria-label="Открыть скриншот ${i + 1} на весь экран карточки"><img src="${esc(u)}" alt="Скриншот ${i + 1} из поста" loading="lazy"></button></figure>`)
       .join('');
     const date = s.postDate ? ` · ${esc(new Date(s.postDate).toLocaleDateString('ru-RU'))}` : '';
     return `<div class="detail-head">
@@ -99,12 +99,34 @@ export function mountSpots(data, { goTo }) {
       <p class="src srcline">Источник: ${sourcesHtml(s.sources, sources)}${s.post ? ` · <a href="${esc(s.post)}" target="_blank" rel="noopener noreferrer">Открыть оригинальный пост</a>` : ''}</p>`;
   }
 
+  /** Просмотр скриншота внутри карточки: стрелки и клавиши ← → переключают, «Назад» возвращает к описанию. */
+  let viewer = null;
+  function showViewer(s, index) {
+    const photos = localPhotos(s);
+    const i = (index + photos.length) % photos.length;
+    viewer = { id: s.id, index: i };
+    dlg.innerHTML = `<div class="detail-head">
+        <button type="button" class="mini" data-back>← Назад к карточке</button>
+        <span class="muted">${i + 1} из ${photos.length}</span>
+        <button type="button" class="mini" data-close>Закрыть</button>
+      </div>
+      <div class="viewer">
+        <button type="button" class="nav" data-step="-1" aria-label="Предыдущий скриншот"${photos.length < 2 ? ' hidden' : ''}>‹</button>
+        <img src="${esc(photos[i])}" alt="Скриншот ${i + 1} из поста: ${esc(s.fish ?? 'точка')}">
+        <button type="button" class="nav" data-step="1" aria-label="Следующий скриншот"${photos.length < 2 ? ' hidden' : ''}>›</button>
+      </div>`;
+    dlg.scrollTop = 0;
+    // Фокус внутри окна, иначе стрелки на клавиатуре не дойдут до обработчика.
+    (dlg.querySelector('[data-step="1"]') ?? dlg.querySelector('[data-back]'))?.focus();
+  }
+  function showCard(s) { viewer = null; dlg.innerHTML = detail(s); dlg.querySelector('[data-close]')?.focus(); }
+
   let opener = null;
   function openDetail(id, from) {
     const s = spotById.get(id);
     if (!s) return;
     opener = from ?? null;
-    dlg.innerHTML = detail(s);
+    showCard(s);
     dlg.dataset.id = id;
     if (!dlg.open) dlg.showModal();
     dlg.scrollTop = 0;
@@ -113,10 +135,26 @@ export function mountSpots(data, { goTo }) {
     const btn = event.target.closest('button');
     if (event.target === dlg || btn?.hasAttribute('data-close')) return dlg.close();
     if (!btn) return;
+    const current = spotById.get(dlg.dataset.id);
+    if (btn.dataset.shot !== undefined && current) return showViewer(current, Number(btn.dataset.shot));
+    if (btn.dataset.step && viewer && current) return showViewer(current, viewer.index + Number(btn.dataset.step));
+    if (btn.hasAttribute('data-back') && current) return showCard(current);
     if (btn.dataset.copy) copyText(btn.dataset.copy, btn);
     else if (btn.dataset.chat) { const s = spotById.get(btn.dataset.chat); if (s) copyText(lineFor(s, waterName(s.water)), btn); }
   });
-  dlg.addEventListener('close', () => { opener?.focus?.(); opener = null; });
+  dlg.addEventListener('keydown', (event) => {
+    if (!viewer) return;
+    const current = spotById.get(dlg.dataset.id);
+    if (event.key === 'ArrowRight') { event.preventDefault(); showViewer(current, viewer.index + 1); }
+    if (event.key === 'ArrowLeft') { event.preventDefault(); showViewer(current, viewer.index - 1); }
+  });
+  // Esc в просмотре возвращает к описанию, а не закрывает всё окно.
+  dlg.addEventListener('cancel', (event) => {
+    if (!viewer) return;
+    event.preventDefault();
+    showCard(spotById.get(dlg.dataset.id));
+  });
+  dlg.addEventListener('close', () => { viewer = null; opener?.focus?.(); opener = null; });
 
   function render() {
     shown = sortByFreshness(filterSpots(spots, { water: select.value, query: $('#spotQ').value, favs, favOnly, photoOnly }));
