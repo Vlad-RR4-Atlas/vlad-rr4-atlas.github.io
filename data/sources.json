@@ -54,5 +54,17 @@
   "tg-rf4map": {
     "name": "Telegram: rf4map",
     "url": null
+  },
+  "tg-vlad-rr-4": {
+    "name": "Telegram: Vlad_RR_4",
+    "url": "https://t.me/Vlad_RR_4"
+  },
+  "tg-rr4pepper": {
+    "name": "Telegram: rr4pepper",
+    "url": "https://t.me/rr4pepper"
+  },
+  "tg-rr4fiching": {
+    "name": "Telegram: rr4fiching",
+    "url": "https://t.me/rr4fiching"
   }
 }
