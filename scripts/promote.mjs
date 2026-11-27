@@ -26,6 +26,6 @@ const next = { ...data, spots: [...data.spots, ...take] };
 const errors = validate(next);
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
 await writeJson('spots', next.spots);
-await writeJson('inbox.json', inbox.filter((c) => !accept.has(c.id) && !reject.has(c.id)));
+await writeJson('inbox', inbox.filter((c) => !accept.has(c.id) && !reject.has(c.id)));
 if (take.length) await writeJson('meta', { ...data.meta, updatedAt: new Date().toISOString().slice(0, 10) });
 console.log(`Принято: ${take.length}, отклонено: ${reject.size}. Остаётся в очереди: ${inbox.length - take.length - [...reject].filter((id) => inbox.some((c) => c.id === id)).length}.`);

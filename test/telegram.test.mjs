@@ -31,6 +31,11 @@ test('падежи названия водоёма распознаются', ()
   const post = { id: 1, url: 'https://t.me/x/1', text: 'На Старом остроге карп, точка 10:44' };
   assert.equal(extractSpots(post, ctx)[0]?.water, 'staryy-ostrog');
 });
+test('короткое название рыбы не дублирует длинное', () => {
+  const post = { id: 2, url: 'https://t.me/x/2', text: 'Старый острог, усач короткоголовый, координаты 21:67' };
+  const spots = extractSpots(post, { ...ctx, fishNames: ['Усач', 'Усач короткоголовый'] });
+  assert.deepEqual(spots.map((s) => s.fish), ['Усач короткоголовый']);
+});
 test('filterNew убирает уже известные точки и повторы', () => {
   const [a] = parseChannelHtml(html);
   const c = extractSpots(a, ctx);

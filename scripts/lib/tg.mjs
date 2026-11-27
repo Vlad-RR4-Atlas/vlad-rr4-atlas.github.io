@@ -44,7 +44,9 @@ export function extractSpots(post, { waters, fishNames, sourceId }) {
   if (!water) return [];
   const coords = [...post.text.matchAll(COORD_NEAR)].map((m) => `${m[1]}:${m[2]}`);
   if (!coords.length) return [];
-  const fish = fishNames.filter((f) => text.includes(norm(f)));
+  // «Усач» и «Усач короткоголовый» в одном посте это одна рыба: оставляем самое длинное название.
+  const hits = fishNames.filter((f) => text.includes(norm(f)));
+  const fish = hits.filter((f) => !hits.some((g) => g !== f && norm(g).includes(norm(f))));
   const bait = /(?:наживк\p{L}*|прикормк\p{L}*|насадк\p{L}*)\s*[:\-–]\s*([^\n]{3,120})/iu.exec(post.text)?.[1]?.trim() ?? null;
   const out = [];
   const unique = [...new Set(coords)];

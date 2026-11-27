@@ -53,5 +53,5 @@ for (const ch of channels) {
 
 console.log(report.join('\n') || 'Каналов в data/channels.json нет.');
 if (values['dry-run']) process.exit(0);
-await writeJson('inbox.json', inbox);
-await writeJson('inbox-state.json', state);
+await writeJson('inbox', inbox);
+await writeJson('inbox-state', state);
