@@ -8,6 +8,7 @@ import { initRouter } from './router.js';
 import { sourcesHtml } from './views/shared.js';
 import { mountSpots } from './views/spots.js';
 import { mountReels } from './views/reels.js';
+import { mountGear } from './views/gear.js';
 import { mountRods } from './views/rods.js';
 import { mountBuilds } from './views/builds.js';
 import { mountWaters } from './views/waters.js';
@@ -54,6 +55,7 @@ async function start() {
     $('#sourceList').innerHTML = `Источники: ${sourcesHtml(linked, data.sources)}.`;
     const spotsView = mountSpots(data, { goTo: (v) => router.show(v) });
     mountReels(data);
+    mountGear(data);
     mountRods(data);
     mountBuilds(data);
     mountWaters(data, { onShowSpots: (id) => { spotsView.filterByWater(id); router.show('spots'); }, onOpenSpot: (id, from) => spotsView.openDetail(id, from) });

@@ -6,7 +6,7 @@ const DATE = /^\d{4}-\d{2}-\d{2}$/;
 const isNum = (v) => typeof v === 'number' && Number.isFinite(v);
 const isNullOrNum = (v) => v === null || isNum(v);
 
-export function validate({ meta, sources, waters, spots, reels, rods, builds }) {
+export function validate({ meta, sources, waters, spots, reels, rods, builds, gears = [] }) {
   const errors = [];
   const err = (where, msg) => errors.push(`${where}: ${msg}`);
 
@@ -74,6 +74,14 @@ export function validate({ meta, sources, waters, spots, reels, rods, builds }) 
     if (!r.name) err(at, 'нет name');
     if (!isNum(r.testMinG) || !isNum(r.testMaxG) || r.testMinG > r.testMaxG) err(at, 'testMinG должен быть <= testMaxG');
     if (!isNum(r.lengthM) || r.lengthM <= 0) err(at, 'lengthM должно быть положительным');
+  });
+
+  unique('gears', gears);
+  gears.forEach((g, i) => {
+    const at = `gears[${g.id ?? i}]`;
+    if (!g.name) err(at, 'нет name');
+    if (!isNum(g.gearKg) || g.gearKg <= 0 || g.gearKg > 500) err(at, 'gearKg должно быть числом от 0 до 500');
+    if (!known(g.sources)) err(at, 'неизвестный источник');
   });
 
   unique('builds', builds);

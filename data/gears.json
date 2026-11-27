@@ -1,0 +1,2045 @@
+[
+  {
+    "id": "gear-admiral-1000s",
+    "name": "Admiral 1000s",
+    "type": "spin",
+    "gearKg": 9.0,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-admiral-2000s",
+    "name": "Admiral 2000s",
+    "type": "spin",
+    "gearKg": 17.7,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-admiral-4000s",
+    "name": "Admiral 4000s",
+    "type": "spin",
+    "gearKg": 42.86,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-admiral-6000s",
+    "name": "Admiral 6000s",
+    "type": "spin",
+    "gearKg": 47.86,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-admiral-8000s",
+    "name": "Admiral 8000s",
+    "type": "spin",
+    "gearKg": 58.48,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-admiral-ii-10000s",
+    "name": "Admiral II 10000S",
+    "type": "spin",
+    "gearKg": 76.42,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-admiral-ii-10000s-superior",
+    "name": "Admiral II 10000S Superior",
+    "type": "spin",
+    "gearKg": 79.87,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-admiral-ii-4000s",
+    "name": "Admiral II 4000S",
+    "type": "spin",
+    "gearKg": 43.16,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-admiral-ii-6000s",
+    "name": "Admiral II 6000S",
+    "type": "spin",
+    "gearKg": 57.45,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-admiral-ii-6000s-superior",
+    "name": "Admiral II 6000S Superior",
+    "type": "spin",
+    "gearKg": 59.23,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-admiral-ii-8000s",
+    "name": "Admiral II 8000S",
+    "type": "spin",
+    "gearKg": 66.95,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-adriatica-3000s",
+    "name": "Adriatica 3000S",
+    "type": "spin",
+    "gearKg": 6.87,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-adriatica-5000s",
+    "name": "Adriatica 5000S",
+    "type": "spin",
+    "gearKg": 14.5,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-alfa-1000",
+    "name": "Alfa 1000",
+    "type": "spin",
+    "gearKg": 5.77,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-alfa-2000",
+    "name": "Alfa 2000",
+    "type": "spin",
+    "gearKg": 11.87,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-alfa-4000",
+    "name": "Alfa 4000",
+    "type": "spin",
+    "gearKg": 16.96,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-alfa-6000",
+    "name": "Alfa 6000",
+    "type": "spin",
+    "gearKg": 31.56,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-alfa-8000",
+    "name": "Alfa 8000",
+    "type": "spin",
+    "gearKg": 38.0,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-aviator-sp-1000-xhs",
+    "name": "Aviator SP 1000 XHS",
+    "type": "spin",
+    "gearKg": 27.02,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-aviator-sp-1000-xhs-9-years",
+    "name": "Aviator SP 1000 XHS 9-Years",
+    "type": "spin",
+    "gearKg": 28.96,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-aviator-sp-2000-xhs",
+    "name": "Aviator SP 2000 XHS",
+    "type": "spin",
+    "gearKg": 36.09,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-aviator-sp-3000-xhs",
+    "name": "Aviator SP 3000 XHS",
+    "type": "spin",
+    "gearKg": 46.92,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-azimut-10000",
+    "name": "Azimut 10000",
+    "type": "spin",
+    "gearKg": 55.0,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-azimut-4000",
+    "name": "Azimut 4000",
+    "type": "spin",
+    "gearKg": 37.56,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-azimut-6000",
+    "name": "Azimut 6000",
+    "type": "spin",
+    "gearKg": 43.68,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-azimut-8000",
+    "name": "Azimut 8000",
+    "type": "spin",
+    "gearKg": 49.63,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bestia-1000",
+    "name": "Bestia 1000",
+    "type": "spin",
+    "gearKg": 10.01,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bestia-2000",
+    "name": "Bestia 2000",
+    "type": "spin",
+    "gearKg": 19.7,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bestia-3000",
+    "name": "Bestia 3000",
+    "type": "spin",
+    "gearKg": 42.44,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bestia-4000",
+    "name": "Bestia 4000",
+    "type": "spin",
+    "gearKg": 45.9,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bestia-6000",
+    "name": "Bestia 6000",
+    "type": "spin",
+    "gearKg": 55.5,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bestia-8000",
+    "name": "Bestia 8000",
+    "type": "spin",
+    "gearKg": 68.01,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bestia-ii-1000-shs",
+    "name": "Bestia II 1000 SHS",
+    "type": "spin",
+    "gearKg": 11.41,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bestia-ii-2000-shs",
+    "name": "Bestia II 2000 SHS",
+    "type": "spin",
+    "gearKg": 24.25,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bestia-ii-3000-shs-stok-7-0-1",
+    "name": "Bestia II 3000 SHS сток 7,0:1",
+    "type": "spin",
+    "gearKg": 43.84,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bestia-ii-6000-shs",
+    "name": "Bestia II 6000 SHS",
+    "type": "spin",
+    "gearKg": 54.6,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bestia-ii-8000-shs",
+    "name": "Bestia II 8000 SHS",
+    "type": "spin",
+    "gearKg": 66.7,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bird-2-20s",
+    "name": "Bird 2 20S",
+    "type": "spin",
+    "gearKg": 13.24,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bird-2-gs-10s",
+    "name": "Bird 2 GS 10S",
+    "type": "spin",
+    "gearKg": 5.52,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bird-2-gs-30s",
+    "name": "Bird 2 GS 30S",
+    "type": "spin",
+    "gearKg": 18.5,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bird-2-gsx-10s",
+    "name": "Bird 2 GSX 10S",
+    "type": "spin",
+    "gearKg": 5.91,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bird-2-gsx-20s",
+    "name": "Bird 2 GSX 20S",
+    "type": "spin",
+    "gearKg": 13.13,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bird-2-gsx-30s",
+    "name": "Bird 2 GSX 30S",
+    "type": "spin",
+    "gearKg": 16.57,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-bird-2-gsx-40s",
+    "name": "Bird 2 GSX 40S",
+    "type": "spin",
+    "gearKg": 17.94,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-caliber-80-slc",
+    "name": "Caliber 80 SLC",
+    "type": "spin",
+    "gearKg": 37.72,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-caliber-hsv-80-slc",
+    "name": "Caliber HSV 80 SLC",
+    "type": "spin",
+    "gearKg": 31.0,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-caliber-hsv-80-slc-raven",
+    "name": "Caliber HSV 80 SLC Raven",
+    "type": "spin",
+    "gearKg": 32.0,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-chronica-6000",
+    "name": "Chronica 6000",
+    "type": "spin",
+    "gearKg": 72.1,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-chronica-ii-6000-stok-4-2-1",
+    "name": "Chronica II 6000 сток 4,2:1",
+    "type": "spin",
+    "gearKg": 72.63,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-commandor-2-20s",
+    "name": "Commandor 2 20S",
+    "type": "spin",
+    "gearKg": 9.7,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-commandor-2-30s",
+    "name": "Commandor 2 30S",
+    "type": "spin",
+    "gearKg": 18.6,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-commandor-2-40s",
+    "name": "Commandor 2 40S",
+    "type": "spin",
+    "gearKg": 21.02,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-commandor-2-60s",
+    "name": "Commandor 2 60S",
+    "type": "spin",
+    "gearKg": 30.12,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-commandor-gs-40s",
+    "name": "Commandor GS 40S",
+    "type": "spin",
+    "gearKg": 23.71,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-commandor-gs-60s",
+    "name": "Commandor GS 60S",
+    "type": "spin",
+    "gearKg": 36.31,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-conquest-4500s",
+    "name": "Conquest 4500s",
+    "type": "spin",
+    "gearKg": 20.36,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-conquest-ii-2000s",
+    "name": "Conquest II 2000s",
+    "type": "spin",
+    "gearKg": 13.54,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-conquest-ii-4000s",
+    "name": "Conquest II 4000s",
+    "type": "spin",
+    "gearKg": 29.9,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-corsair-10s",
+    "name": "Corsair 10S",
+    "type": "spin",
+    "gearKg": 7.29,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-corsair-20s",
+    "name": "Corsair 20S",
+    "type": "spin",
+    "gearKg": 17.62,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-corsair-30s",
+    "name": "Corsair 30S",
+    "type": "spin",
+    "gearKg": 22.04,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-dragon-30s",
+    "name": "Dragon 30s",
+    "type": "spin",
+    "gearKg": 6.72,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-dragon-40s",
+    "name": "Dragon 40s",
+    "type": "spin",
+    "gearKg": 9.5,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-easyspin-1000s",
+    "name": "EasySpin 1000s",
+    "type": "spin",
+    "gearKg": 5.12,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-element-1000",
+    "name": "Element 1000",
+    "type": "spin",
+    "gearKg": 4.04,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-element-2000",
+    "name": "Element 2000",
+    "type": "spin",
+    "gearKg": 5.79,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-element-3000",
+    "name": "Element 3000",
+    "type": "spin",
+    "gearKg": 7.96,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-element-4000",
+    "name": "Element 4000",
+    "type": "spin",
+    "gearKg": 9.53,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-element-pro-1000",
+    "name": "Element PRO 1000",
+    "type": "spin",
+    "gearKg": 4.92,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-element-pro-2000",
+    "name": "Element PRO 2000",
+    "type": "spin",
+    "gearKg": 7.48,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-element-pro-3000",
+    "name": "Element PRO 3000",
+    "type": "spin",
+    "gearKg": 9.93,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-element-pro-4000",
+    "name": "Element PRO 4000",
+    "type": "spin",
+    "gearKg": 11.05,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-everest-ii-4000s",
+    "name": "Everest II 4000s",
+    "type": "spin",
+    "gearKg": 30.16,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-everest-ii-6000s",
+    "name": "Everest II 6000s",
+    "type": "spin",
+    "gearKg": 35.16,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-everest-ii-8000s",
+    "name": "Everest II 8000s",
+    "type": "spin",
+    "gearKg": 44.62,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-everest-iii-4000s",
+    "name": "Everest III 4000S",
+    "type": "spin",
+    "gearKg": 30.55,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-everest-iii-6000s",
+    "name": "Everest III 6000S",
+    "type": "spin",
+    "gearKg": 39.27,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-everest-iii-8000s",
+    "name": "Everest III 8000S",
+    "type": "spin",
+    "gearKg": 48.66,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-evia-8000",
+    "name": "Evia 8000",
+    "type": "spin",
+    "gearKg": 41.7,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-fisher-mt10",
+    "name": "Fisher MT10",
+    "type": "spin",
+    "gearKg": 7.89,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-full-metal-60-mod-4-0-1",
+    "name": "Full Metal 60 мод 4,0:1",
+    "type": "spin",
+    "gearKg": 60.02,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-full-metal-60-stok-4-5-1",
+    "name": "Full Metal 60 сток 4,5:1",
+    "type": "spin",
+    "gearKg": 49.15,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-furia-10000",
+    "name": "Furia 10000",
+    "type": "spin",
+    "gearKg": 118.27,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-furia-10000-shs",
+    "name": "Furia 10000 SHS",
+    "type": "spin",
+    "gearKg": 104.74,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-furia-20000",
+    "name": "Furia 20000",
+    "type": "spin",
+    "gearKg": 128.53,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-furia-30000",
+    "name": "Furia 30000",
+    "type": "spin",
+    "gearKg": 132.79,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-gold-30s",
+    "name": "Gold 30s",
+    "type": "spin",
+    "gearKg": 16.82,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-gold-60s",
+    "name": "Gold 60s",
+    "type": "spin",
+    "gearKg": 28.35,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-gold-80s",
+    "name": "Gold 80s",
+    "type": "spin",
+    "gearKg": 34.58,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-goliaf-10000",
+    "name": "Goliaf 10000",
+    "type": "spin",
+    "gearKg": 112.61,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-goliaf-20000",
+    "name": "Goliaf 20000",
+    "type": "spin",
+    "gearKg": 105.28,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-goliaf-30000",
+    "name": "Goliaf 30000",
+    "type": "spin",
+    "gearKg": 120.56,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-hercules-g2-20s",
+    "name": "Hercules G2 20s",
+    "type": "spin",
+    "gearKg": 6.94,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-hercules-g2-40s",
+    "name": "Hercules G2 40s",
+    "type": "spin",
+    "gearKg": 10.15,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-horizon-2-2000s",
+    "name": "Horizon 2 2000s",
+    "type": "spin",
+    "gearKg": 12.51,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-horizon-2-3000s",
+    "name": "Horizon 2 3000s",
+    "type": "spin",
+    "gearKg": 18.8,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-horizon-2-4000s",
+    "name": "Horizon 2 4000s",
+    "type": "spin",
+    "gearKg": 17.91,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-horizon-iii-1000s",
+    "name": "Horizon III 1000S",
+    "type": "spin",
+    "gearKg": 8.27,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-horizon-iii-2000s",
+    "name": "Horizon III 2000S",
+    "type": "spin",
+    "gearKg": 12.04,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-horizon-iii-3000s",
+    "name": "Horizon III 3000S",
+    "type": "spin",
+    "gearKg": 24.9,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-horizon-iii-3000s-9-anniversary",
+    "name": "Horizon III 3000S 9-Anniversary",
+    "type": "spin",
+    "gearKg": 28.92,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-horizon-iii-6000s",
+    "name": "Horizon III 6000S",
+    "type": "spin",
+    "gearKg": 38.22,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-hydra-g2-30s",
+    "name": "Hydra G2 30s",
+    "type": "spin",
+    "gearKg": 5.88,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-hydra-smart-2-25s",
+    "name": "Hydra Smart 2 25s",
+    "type": "spin",
+    "gearKg": 5.4,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-hydra-smart-25s",
+    "name": "Hydra Smart 25s",
+    "type": "spin",
+    "gearKg": 2.8,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-hunter-40s",
+    "name": "Hunter 40S",
+    "type": "spin",
+    "gearKg": 32.45,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-hunter-60s",
+    "name": "Hunter 60S",
+    "type": "spin",
+    "gearKg": 43.55,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-hunter-60s-9-years",
+    "name": "Hunter 60S 9-Years",
+    "type": "spin",
+    "gearKg": 43.55,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-hunter-80s",
+    "name": "Hunter 80S",
+    "type": "spin",
+    "gearKg": 49.13,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-hunter-80s-9-years",
+    "name": "Hunter 80S 9-Years",
+    "type": "spin",
+    "gearKg": 49.13,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-jsx-10s",
+    "name": "JSX 10S",
+    "type": "spin",
+    "gearKg": 9.0,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-jsx-20s",
+    "name": "JSX 20S",
+    "type": "spin",
+    "gearKg": 20.84,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-jsx-inferno-10s",
+    "name": "JSX Inferno 10S",
+    "type": "spin",
+    "gearKg": 11.04,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-jsx-inferno-20s",
+    "name": "JSX Inferno 20S",
+    "type": "spin",
+    "gearKg": 22.45,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-lacerti-ng-4000",
+    "name": "Lacerti NG 4000",
+    "type": "spin",
+    "gearKg": 5.39,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-lacerti-s-4000s",
+    "name": "Lacerti-S 4000S",
+    "type": "spin",
+    "gearKg": 4.94,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-lacerti-sx-ng-4000",
+    "name": "Lacerti-SX NG 4000",
+    "type": "spin",
+    "gearKg": 6.07,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-lagoon-1000s",
+    "name": "Lagoon 1000S",
+    "type": "spin",
+    "gearKg": 3.8,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-lagoon-3000s",
+    "name": "Lagoon 3000S",
+    "type": "spin",
+    "gearKg": 5.44,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-lagoon-hp-2-2000s",
+    "name": "Lagoon-HP 2 2000S",
+    "type": "spin",
+    "gearKg": 5.0,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-lagoon-hp-4000s",
+    "name": "Lagoon-HP 4000S",
+    "type": "spin",
+    "gearKg": 8.04,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-libra-libra-2-3000s",
+    "name": "Libra / Libra 2 3000S",
+    "type": "spin",
+    "gearKg": 4.5,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-libra-2-2000s",
+    "name": "Libra 2 2000S",
+    "type": "spin",
+    "gearKg": 4.1,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-mayor-2-2000s",
+    "name": "Mayor 2 2000s",
+    "type": "spin",
+    "gearKg": 17.95,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-mayor-2-4000s",
+    "name": "Mayor 2 4000s",
+    "type": "spin",
+    "gearKg": 31.6,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-mayor-iii-1000s",
+    "name": "Mayor III 1000S",
+    "type": "spin",
+    "gearKg": 9.65,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-mayor-iii-2000s",
+    "name": "Mayor III 2000S",
+    "type": "spin",
+    "gearKg": 22.49,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-mayor-iii-3000s-9-years-mod-6-5-1",
+    "name": "Mayor III 3000S (9 Years) мод 6,5:1",
+    "type": "spin",
+    "gearKg": 41.78,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-mayor-iii-3000s-9-years-stok-6-1-1",
+    "name": "Mayor III 3000S (9 Years) сток 6,1:1",
+    "type": "spin",
+    "gearKg": 35.0,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-mayor-ltd-2-3000s",
+    "name": "Mayor ltd 2 3000s",
+    "type": "spin",
+    "gearKg": 31.38,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-mayor-ltd-2-4000s",
+    "name": "Mayor ltd 2 4000s",
+    "type": "spin",
+    "gearKg": 34.03,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-mayor-ltd-2-6000s",
+    "name": "Mayor ltd 2 6000s",
+    "type": "spin",
+    "gearKg": 43.52,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-megara-8000",
+    "name": "Megara 8000",
+    "type": "spin",
+    "gearKg": 72.0,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-meteor-30s",
+    "name": "Meteor 30s",
+    "type": "spin",
+    "gearKg": 16.0,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-model-827",
+    "name": "Model 827",
+    "type": "spin",
+    "gearKg": 44.36,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-model-de-luxe-430s",
+    "name": "Model De Luxe 430S",
+    "type": "spin",
+    "gearKg": 24.3,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-mosquito-2-3000s",
+    "name": "Mosquito 2 3000s",
+    "type": "spin",
+    "gearKg": 17.06,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-narga-2000",
+    "name": "Narga 2000",
+    "type": "spin",
+    "gearKg": 16.66,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-narga-4000",
+    "name": "Narga 4000",
+    "type": "spin",
+    "gearKg": 27.33,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-narga-6000",
+    "name": "Narga 6000",
+    "type": "spin",
+    "gearKg": 35.86,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-narga-8000",
+    "name": "Narga 8000",
+    "type": "spin",
+    "gearKg": 43.0,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-natora-1000",
+    "name": "Natora 1000",
+    "type": "spin",
+    "gearKg": 5.8,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-natora-2000",
+    "name": "Natora 2000",
+    "type": "spin",
+    "gearKg": 16.24,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-natora-3000",
+    "name": "Natora 3000",
+    "type": "spin",
+    "gearKg": 28.58,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-natora-4000",
+    "name": "Natora 4000",
+    "type": "spin",
+    "gearKg": 35.49,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-natora-6000",
+    "name": "Natora 6000",
+    "type": "spin",
+    "gearKg": 37.43,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-natora-6000-supercarp",
+    "name": "Natora 6000 Supercarp",
+    "type": "spin",
+    "gearKg": 36.96,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-natora-8000",
+    "name": "Natora 8000",
+    "type": "spin",
+    "gearKg": 43.76,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-olaf-sp-10",
+    "name": "Olaf SP 10",
+    "type": "spin",
+    "gearKg": 16.98,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-olaf-sp-20",
+    "name": "Olaf SP 20",
+    "type": "spin",
+    "gearKg": 24.78,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-olaf-sp-30",
+    "name": "Olaf SP 30",
+    "type": "spin",
+    "gearKg": 40.92,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-olaf-sp-60",
+    "name": "Olaf SP 60",
+    "type": "spin",
+    "gearKg": 51.5,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-olaf-stark-sp-swg-100",
+    "name": "Olaf Stark SP-SWG 100",
+    "type": "spin",
+    "gearKg": 71.78,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-overlord-3-10s",
+    "name": "Overlord 3 10S",
+    "type": "spin",
+    "gearKg": 8.51,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-overlord-3-20s",
+    "name": "Overlord 3 20S",
+    "type": "spin",
+    "gearKg": 18.66,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-overlord-3b-10s",
+    "name": "Overlord 3B 10S",
+    "type": "spin",
+    "gearKg": 8.49,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-overlord-3b-20s",
+    "name": "Overlord 3B 20S",
+    "type": "spin",
+    "gearKg": 19.6,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-overlord-3bs-10s",
+    "name": "Overlord 3BS 10S",
+    "type": "spin",
+    "gearKg": 9.55,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-overlord-3bs-20s",
+    "name": "Overlord 3BS 20S",
+    "type": "spin",
+    "gearKg": 20.95,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-overlord-3gs-10s",
+    "name": "Overlord 3GS 10S",
+    "type": "spin",
+    "gearKg": 10.02,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-overlord-3gs-20s",
+    "name": "Overlord 3GS 20S",
+    "type": "spin",
+    "gearKg": 23.06,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-overlord-3rs-10s",
+    "name": "Overlord 3RS 10S",
+    "type": "spin",
+    "gearKg": 12.02,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-overlord-3rs-20s",
+    "name": "Overlord 3RS 20S",
+    "type": "spin",
+    "gearKg": 25.95,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-overlord-87-i-88",
+    "name": "Overlord 87 и 88",
+    "type": "spin",
+    "gearKg": 80.5,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-p-series-2-gs-10s",
+    "name": "P-Series 2 GS 10S",
+    "type": "spin",
+    "gearKg": 7.19,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-p-series-2-gs-20s",
+    "name": "P-Series 2 GS 20S",
+    "type": "spin",
+    "gearKg": 17.05,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-p-series-2-gs-30s",
+    "name": "P-Series 2 GS 30S",
+    "type": "spin",
+    "gearKg": 25.32,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-p-series-2-gs-40s",
+    "name": "P-Series 2 GS 40S",
+    "type": "spin",
+    "gearKg": 29.95,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-p-series-2-gs-60s",
+    "name": "P-Series 2 GS 60S",
+    "type": "spin",
+    "gearKg": 47.44,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-pegasus-10s",
+    "name": "Pegasus 10s",
+    "type": "spin",
+    "gearKg": 4.97,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-pegasus-30s",
+    "name": "Pegasus 30s",
+    "type": "spin",
+    "gearKg": 8.81,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-pelengas",
+    "name": "Pelengas",
+    "type": "spin",
+    "gearKg": 11.7,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-pelengas-2017",
+    "name": "Pelengas 2017",
+    "type": "spin",
+    "gearKg": 16.45,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-pelengas-2025",
+    "name": "Pelengas 2025",
+    "type": "spin",
+    "gearKg": 17.81,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-pride-2000s",
+    "name": "Pride 2000S",
+    "type": "spin",
+    "gearKg": 4.41,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-pride-4000s",
+    "name": "Pride 4000S",
+    "type": "spin",
+    "gearKg": 9.43,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-pride-6000s",
+    "name": "Pride 6000S",
+    "type": "spin",
+    "gearKg": 17.26,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-proton-2000",
+    "name": "Proton 2000",
+    "type": "spin",
+    "gearKg": 9.55,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-proton-4000",
+    "name": "Proton 4000",
+    "type": "spin",
+    "gearKg": 13.81,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-proton-6000",
+    "name": "Proton 6000",
+    "type": "spin",
+    "gearKg": 17.2,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-pulsar-2000",
+    "name": "Pulsar 2000",
+    "type": "spin",
+    "gearKg": 11.05,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-pulsar-4000",
+    "name": "Pulsar 4000",
+    "type": "spin",
+    "gearKg": 15.21,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-pulsar-6000",
+    "name": "Pulsar 6000",
+    "type": "spin",
+    "gearKg": 24.16,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-sabre-40s",
+    "name": "Sabre 40s",
+    "type": "spin",
+    "gearKg": 13.02,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-sabre-60s",
+    "name": "Sabre 60s",
+    "type": "spin",
+    "gearKg": 21.68,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-sg8000-ultra-power",
+    "name": "SG8000 Ultra Power",
+    "type": "spin",
+    "gearKg": 51.14,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-silver-80",
+    "name": "Silver 80",
+    "type": "spin",
+    "gearKg": 67.04,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-sirius-20s",
+    "name": "Sirius 20S",
+    "type": "spin",
+    "gearKg": 8.15,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-spark-2-2000s",
+    "name": "Spark 2 2000S",
+    "type": "spin",
+    "gearKg": 3.4,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-super-cast-6000s",
+    "name": "Super Cast 6000s",
+    "type": "spin",
+    "gearKg": 16.0,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-tagara-10000",
+    "name": "Tagara 10000",
+    "type": "spin",
+    "gearKg": 62.0,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-tagara-4000",
+    "name": "Tagara 4000",
+    "type": "spin",
+    "gearKg": 39.64,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-tagara-6000",
+    "name": "Tagara 6000",
+    "type": "spin",
+    "gearKg": 45.1,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-tagara-6000-super-8",
+    "name": "Tagara 6000 Super 8",
+    "type": "spin",
+    "gearKg": 44.99,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-tagara-8000",
+    "name": "Tagara 8000",
+    "type": "spin",
+    "gearKg": 53.87,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-tagara-ii-10000",
+    "name": "Tagara II 10000",
+    "type": "spin",
+    "gearKg": 62.45,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-tagara-ii-10000-8-anniversary",
+    "name": "Tagara II 10000 8-Anniversary",
+    "type": "spin",
+    "gearKg": 65.53,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-tagara-ii-3000-shs-stok-6-8-1",
+    "name": "Tagara II 3000 SHS сток 6,8:1",
+    "type": "spin",
+    "gearKg": 39.76,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-tagara-ii-6000-mod-4-6-1",
+    "name": "Tagara II 6000 мод 4,6:1",
+    "type": "spin",
+    "gearKg": 42.67,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-tagara-ii-6000-stok-5-4-1",
+    "name": "Tagara II 6000 сток 5,4:1",
+    "type": "spin",
+    "gearKg": 45.89,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-tagara-ii-8000",
+    "name": "Tagara II 8000",
+    "type": "spin",
+    "gearKg": 57.06,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-titan-8000",
+    "name": "Titan 8000",
+    "type": "spin",
+    "gearKg": 27.28,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-turion-sw-10000",
+    "name": "Turion SW 10000",
+    "type": "spin",
+    "gearKg": 114.29,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-turion-sw-20000",
+    "name": "Turion SW 20000",
+    "type": "spin",
+    "gearKg": 120.19,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-turion-sw-30000",
+    "name": "Turion SW 30000",
+    "type": "spin",
+    "gearKg": 127.94,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-turion-sw-8000",
+    "name": "Turion SW 8000",
+    "type": "spin",
+    "gearKg": 110.68,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-velara-1000",
+    "name": "Velara 1000",
+    "type": "spin",
+    "gearKg": 7.74,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-velara-3000",
+    "name": "Velara 3000",
+    "type": "spin",
+    "gearKg": 30.55,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-velara-6000-stok-5-1-1",
+    "name": "Velara 6000 сток 5,1:1",
+    "type": "spin",
+    "gearKg": 38.98,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-velara-8000-stok-4-6-1",
+    "name": "Velara 8000 сток 4,6:1",
+    "type": "spin",
+    "gearKg": 41.89,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-venga-10000-6-anniversary",
+    "name": "Venga 10000 6-Anniversary",
+    "type": "spin",
+    "gearKg": 111.1,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-venga-8000",
+    "name": "Venga 8000",
+    "type": "spin",
+    "gearKg": 83.98,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-venga-classic-10000",
+    "name": "Venga Classic 10000",
+    "type": "spin",
+    "gearKg": 98.0,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-venga-classic-6000",
+    "name": "Venga Classic 6000",
+    "type": "spin",
+    "gearKg": 69.66,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-venga-ii-10000",
+    "name": "Venga II 10000",
+    "type": "spin",
+    "gearKg": 108.31,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-venga-ii-10000-super-9",
+    "name": "Venga II 10000 Super 9",
+    "type": "spin",
+    "gearKg": 108.31,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-venga-ii-30000",
+    "name": "Venga II 30000",
+    "type": "spin",
+    "gearKg": 144.12,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-venga-ii-30000-first-edition",
+    "name": "Venga II 30000 First Edition",
+    "type": "spin",
+    "gearKg": 158.06,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-venga-ii-30000-super-9",
+    "name": "Venga II 30000 Super 9",
+    "type": "spin",
+    "gearKg": 144.12,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-venga-ii-6000",
+    "name": "Venga II 6000",
+    "type": "spin",
+    "gearKg": 71.2,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-venga-ii-8000-shs",
+    "name": "Venga II 8000 SHS",
+    "type": "spin",
+    "gearKg": 80.25,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-vyatka-2",
+    "name": "Vyatka-2",
+    "type": "spin",
+    "gearKg": 4.6,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-z-series-2-10s",
+    "name": "Z-Series 2 10S",
+    "type": "spin",
+    "gearKg": 7.88,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-z-series-2-20s",
+    "name": "Z-Series 2 20S",
+    "type": "spin",
+    "gearKg": 16.45,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-z-series-2-30s",
+    "name": "Z-Series 2 30S",
+    "type": "spin",
+    "gearKg": 22.97,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-z-series-2-40s",
+    "name": "Z-Series 2 40S",
+    "type": "spin",
+    "gearKg": 28.18,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "gear-z-series-2-60s",
+    "name": "Z-Series 2 60S",
+    "type": "spin",
+    "gearKg": 45.1,
+    "sources": [
+      "potryasov"
+    ]
+  }
+]

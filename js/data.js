@@ -1,8 +1,8 @@
 // Загрузка данных из data/*.json. Каждый файл проверяется на HTTP-статус и на формат,
 // а ошибка поднимается наверх, чтобы страница показала понятное сообщение.
 
-const FILES = ['meta', 'sources', 'waters', 'spots', 'reels', 'rods', 'builds'];
-const ARRAYS = new Set(['waters', 'spots', 'reels', 'rods', 'builds']);
+const FILES = ['meta', 'sources', 'waters', 'spots', 'reels', 'rods', 'builds', 'gears'];
+const ARRAYS = new Set(['waters', 'spots', 'reels', 'rods', 'builds', 'gears']);
 
 async function fetchJson(name, base) {
   const response = await fetch(`${base}${name}.json`);
