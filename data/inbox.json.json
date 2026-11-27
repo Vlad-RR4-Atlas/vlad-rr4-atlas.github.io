@@ -1,0 +1,302 @@
+[
+  {
+    "id": "ahtuba-usach-korotkogolovyy-33-103-tg-1089",
+    "water": "ahtuba",
+    "fish": "Усач короткоголовый",
+    "coord": "33:103",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-vlad-rr-4"
+    ],
+    "post": "https://t.me/Vlad_RR_4/1089"
+  },
+  {
+    "id": "ahtuba-usach-33-103-tg-1089",
+    "water": "ahtuba",
+    "fish": "Усач",
+    "coord": "33:103",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-vlad-rr-4"
+    ],
+    "post": "https://t.me/Vlad_RR_4/1089"
+  },
+  {
+    "id": "medvezhe-usach-55-31-tg-1103",
+    "water": "medvezhe",
+    "fish": "Усач",
+    "coord": "55:31",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-vlad-rr-4"
+    ],
+    "post": "https://t.me/Vlad_RR_4/1103"
+  },
+  {
+    "id": "medvezhe-usach-obyknovennyy-55-31-tg-1103",
+    "water": "medvezhe",
+    "fish": "Усач обыкновенный",
+    "coord": "55:31",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-vlad-rr-4"
+    ],
+    "post": "https://t.me/Vlad_RR_4/1103"
+  },
+  {
+    "id": "kuori-schuka-obyknovennaya-129-109-tg-1107",
+    "water": "kuori",
+    "fish": "Щука обыкновенная",
+    "coord": "129:109",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-vlad-rr-4"
+    ],
+    "post": "https://t.me/Vlad_RR_4/1107"
+  },
+  {
+    "id": "kuori-schuka-129-109-tg-1107",
+    "water": "kuori",
+    "fish": "Щука",
+    "coord": "129:109",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-vlad-rr-4"
+    ],
+    "post": "https://t.me/Vlad_RR_4/1107"
+  },
+  {
+    "id": "staryy-ostrog-ryba-21-67-tg-1113",
+    "water": "staryy-ostrog",
+    "fish": null,
+    "coord": "21:67",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-vlad-rr-4"
+    ],
+    "post": "https://t.me/Vlad_RR_4/1113"
+  },
+  {
+    "id": "nizhnyaya-tunguska-harius-130-131-tg-1117",
+    "water": "nizhnyaya-tunguska",
+    "fish": "Хариус",
+    "coord": "130:131",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-vlad-rr-4"
+    ],
+    "post": "https://t.me/Vlad_RR_4/1117"
+  },
+  {
+    "id": "nizhnyaya-tunguska-ryba-109-107-tg-1120",
+    "water": "nizhnyaya-tunguska",
+    "fish": null,
+    "coord": "109:107",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-vlad-rr-4"
+    ],
+    "post": "https://t.me/Vlad_RR_4/1120"
+  },
+  {
+    "id": "nizhnyaya-tunguska-harius-105-102-tg-1086",
+    "water": "nizhnyaya-tunguska",
+    "fish": "Хариус",
+    "coord": "105:102",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-vlad-rr-4"
+    ],
+    "post": "https://t.me/Vlad_RR_4/1086"
+  },
+  {
+    "id": "yantarnoe-karp-64-94-tg-116028",
+    "water": "yantarnoe",
+    "fish": "Карп",
+    "coord": "64:94",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-rr4pepper"
+    ],
+    "post": "https://t.me/rr4pepper/116028"
+  },
+  {
+    "id": "yantarnoe-karp-krasnyy-starvas-64-94-tg-116028",
+    "water": "yantarnoe",
+    "fish": "Карп красный Старвас",
+    "coord": "64:94",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-rr4pepper"
+    ],
+    "post": "https://t.me/rr4pepper/116028"
+  },
+  {
+    "id": "losinoe-ryba-117-90-tg-115995",
+    "water": "losinoe",
+    "fish": null,
+    "coord": "117:90",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-rr4pepper"
+    ],
+    "post": "https://t.me/rr4pepper/115995"
+  },
+  {
+    "id": "mednoe-karp-57-50-tg-4401",
+    "water": "mednoe",
+    "fish": "Карп",
+    "coord": "57:50",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-rr4fiching"
+    ],
+    "post": "https://t.me/rr4fiching/4401"
+  },
+  {
+    "id": "mednoe-karp-super-friks-57-50-tg-4401",
+    "water": "mednoe",
+    "fish": "Карп Супер Фрикс",
+    "coord": "57:50",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-rr4fiching"
+    ],
+    "post": "https://t.me/rr4fiching/4401"
+  },
+  {
+    "id": "vyunok-ersh-110-126-tg-4405",
+    "water": "vyunok",
+    "fish": "Ёрш",
+    "coord": "110:126",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-rr4fiching"
+    ],
+    "post": "https://t.me/rr4fiching/4405"
+  },
+  {
+    "id": "mednoe-raznorybica-67-57-tg-4411",
+    "water": "mednoe",
+    "fish": "Разнорыбица",
+    "coord": "67:57",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-rr4fiching"
+    ],
+    "post": "https://t.me/rr4fiching/4411"
+  },
+  {
+    "id": "ahtuba-ryba-129-130-tg-4366",
+    "water": "ahtuba",
+    "fish": null,
+    "coord": "129:130",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-rr4fiching"
+    ],
+    "post": "https://t.me/rr4fiching/4366"
+  },
+  {
+    "id": "vyunok-ersh-nosar-110-126-tg-4343",
+    "water": "vyunok",
+    "fish": "Ёрш-носарь",
+    "coord": "110:126",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-rr4fiching"
+    ],
+    "post": "https://t.me/rr4fiching/4343"
+  },
+  {
+    "id": "kuori-ryba-129-109-tg-4351",
+    "water": "kuori",
+    "fish": null,
+    "coord": "129:109",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "tg-rr4fiching"
+    ],
+    "post": "https://t.me/rr4fiching/4351"
+  }
+]
