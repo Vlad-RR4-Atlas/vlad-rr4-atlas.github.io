@@ -3028,5 +3028,4717 @@
     "priceSilver": 2126,
     "priceGold": null,
     "waterproof": false
+  },
+  {
+    "id": "reel-spin-admiral-ii-10000s",
+    "name": "Admiral II 10000S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 76.42,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-admiral-ii-10000s-superior",
+    "name": "Admiral II 10000S Superior",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 79.87,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-admiral-ii-4000s",
+    "name": "Admiral II 4000S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 43.16,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-admiral-ii-6000s",
+    "name": "Admiral II 6000S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 57.45,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-admiral-ii-6000s-superior",
+    "name": "Admiral II 6000S Superior",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 59.23,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-admiral-ii-8000s",
+    "name": "Admiral II 8000S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 66.95,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-aviator-sp-1000-xhs",
+    "name": "Aviator SP 1000 XHS",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 27.02,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-aviator-sp-1000-xhs-9-years",
+    "name": "Aviator SP 1000 XHS 9-Years",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 28.96,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-aviator-sp-2000-xhs",
+    "name": "Aviator SP 2000 XHS",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 36.09,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-aviator-sp-3000-xhs",
+    "name": "Aviator SP 3000 XHS",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 46.92,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-bestia-ii-1000-shs",
+    "name": "Bestia II 1000 SHS",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 11.41,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-bestia-ii-2000-shs",
+    "name": "Bestia II 2000 SHS",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 24.25,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-bestia-ii-3000-shs-stok-7-0-1",
+    "name": "Bestia II 3000 SHS сток 7,0:1",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": 7,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 43.84,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-bestia-ii-6000-shs",
+    "name": "Bestia II 6000 SHS",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 54.6,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-bestia-ii-8000-shs",
+    "name": "Bestia II 8000 SHS",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 66.7,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-caliber-hsv-80-slc-raven",
+    "name": "Caliber HSV 80 SLC Raven",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 32,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-chronica-ii-6000-stok-4-2-1",
+    "name": "Chronica II 6000 сток 4,2:1",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": 4.2,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 72.63,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-conquest-4500s",
+    "name": "Conquest 4500s",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 20.36,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-conquest-ii-2000s",
+    "name": "Conquest II 2000s",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 13.54,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-everest-iii-4000s",
+    "name": "Everest III 4000S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 30.55,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-everest-iii-6000s",
+    "name": "Everest III 6000S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 39.27,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-everest-iii-8000s",
+    "name": "Everest III 8000S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 48.66,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-full-metal-60-mod-4-0-1",
+    "name": "Full Metal 60 мод 4,0:1",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": 4,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 60.02,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-full-metal-60-stok-4-5-1",
+    "name": "Full Metal 60 сток 4,5:1",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": 4.5,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 49.15,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-furia-10000",
+    "name": "Furia 10000",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 118.27,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-furia-10000-shs",
+    "name": "Furia 10000 SHS",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 104.74,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-furia-20000",
+    "name": "Furia 20000",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 128.53,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-furia-30000",
+    "name": "Furia 30000",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 132.79,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-horizon-iii-1000s",
+    "name": "Horizon III 1000S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 8.27,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-horizon-iii-2000s",
+    "name": "Horizon III 2000S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 12.04,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-horizon-iii-3000s",
+    "name": "Horizon III 3000S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 24.9,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-horizon-iii-3000s-9-anniversary",
+    "name": "Horizon III 3000S 9-Anniversary",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 28.92,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-horizon-iii-6000s",
+    "name": "Horizon III 6000S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 38.22,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-hydra-smart-25s",
+    "name": "Hydra Smart 25s",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 2.8,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-hunter-40s",
+    "name": "Hunter 40S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 32.45,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-hunter-60s",
+    "name": "Hunter 60S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 43.55,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-hunter-60s-9-years",
+    "name": "Hunter 60S 9-Years",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 43.55,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-hunter-80s",
+    "name": "Hunter 80S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 49.13,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-hunter-80s-9-years",
+    "name": "Hunter 80S 9-Years",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 49.13,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-lacerti-ng-4000",
+    "name": "Lacerti NG 4000",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 5.39,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-lacerti-s-4000s",
+    "name": "Lacerti-S 4000S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 4.94,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-lacerti-sx-ng-4000",
+    "name": "Lacerti-SX NG 4000",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 6.07,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-lagoon-hp-4000s",
+    "name": "Lagoon-HP 4000S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 8.04,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-libra-libra-2-3000s",
+    "name": "Libra / Libra 2 3000S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 4.5,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-mayor-2-2000s",
+    "name": "Mayor 2 2000s",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 17.95,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-mayor-2-4000s",
+    "name": "Mayor 2 4000s",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 31.6,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-mayor-iii-1000s",
+    "name": "Mayor III 1000S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 9.65,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-mayor-iii-2000s",
+    "name": "Mayor III 2000S",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 22.49,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-mayor-iii-3000s-9-years-mod-6-5-1",
+    "name": "Mayor III 3000S (9 Years) мод 6,5:1",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": 6.5,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 41.78,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-mayor-iii-3000s-9-years-stok-6-1-1",
+    "name": "Mayor III 3000S (9 Years) сток 6,1:1",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": 6.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 35,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-mayor-ltd-2-3000s",
+    "name": "Mayor ltd 2 3000s",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 31.38,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-mayor-ltd-2-4000s",
+    "name": "Mayor ltd 2 4000s",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 34.03,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-mayor-ltd-2-6000s",
+    "name": "Mayor ltd 2 6000s",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 43.52,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-natora-6000-supercarp",
+    "name": "Natora 6000 Supercarp",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 36.96,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-olaf-sp-10",
+    "name": "Olaf SP 10",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 16.98,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-olaf-sp-20",
+    "name": "Olaf SP 20",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 24.78,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-olaf-sp-30",
+    "name": "Olaf SP 30",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 40.92,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-olaf-sp-60",
+    "name": "Olaf SP 60",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 51.5,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-olaf-stark-sp-swg-100",
+    "name": "Olaf Stark SP-SWG 100",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 71.78,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-overlord-87-i-88",
+    "name": "Overlord 87 и 88",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 80.5,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-pelengas-2017",
+    "name": "Pelengas 2017",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 16.45,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-pelengas-2025",
+    "name": "Pelengas 2025",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 17.81,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-tagara-6000-super-8",
+    "name": "Tagara 6000 Super 8",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 44.99,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-tagara-ii-10000",
+    "name": "Tagara II 10000",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 62.45,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-tagara-ii-10000-8-anniversary",
+    "name": "Tagara II 10000 8-Anniversary",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 65.53,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-tagara-ii-3000-shs-stok-6-8-1",
+    "name": "Tagara II 3000 SHS сток 6,8:1",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": 6.8,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 39.76,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-tagara-ii-6000-mod-4-6-1",
+    "name": "Tagara II 6000 мод 4,6:1",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": 4.6,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 42.67,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-tagara-ii-6000-stok-5-4-1",
+    "name": "Tagara II 6000 сток 5,4:1",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": 5.4,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 45.89,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-tagara-ii-8000",
+    "name": "Tagara II 8000",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 57.06,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-velara-1000",
+    "name": "Velara 1000",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 7.74,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-velara-3000",
+    "name": "Velara 3000",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 30.55,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-velara-6000-stok-5-1-1",
+    "name": "Velara 6000 сток 5,1:1",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": 5.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 38.98,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-velara-8000-stok-4-6-1",
+    "name": "Velara 8000 сток 4,6:1",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": 4.6,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 41.89,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-venga-10000-6-anniversary",
+    "name": "Venga 10000 6-Anniversary",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 111.1,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-venga-classic-10000",
+    "name": "Venga Classic 10000",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 98,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-venga-classic-6000",
+    "name": "Venga Classic 6000",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 69.66,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-venga-ii-10000",
+    "name": "Venga II 10000",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 108.31,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-venga-ii-10000-super-9",
+    "name": "Venga II 10000 Super 9",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 108.31,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-venga-ii-30000",
+    "name": "Venga II 30000",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 144.12,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-venga-ii-30000-first-edition",
+    "name": "Venga II 30000 First Edition",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 158.06,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-venga-ii-30000-super-9",
+    "name": "Venga II 30000 Super 9",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 144.12,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-venga-ii-6000",
+    "name": "Venga II 6000",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 71.2,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-spin-venga-ii-8000-shs",
+    "name": "Venga II 8000 SHS",
+    "type": "spin",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 80.25,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-admiral-lp-r-pg",
+    "name": "Admiral LP-R PG",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 44.45,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-alfa-pro-lp-stok-6-6-1",
+    "name": "Alfa Pro LP сток 6,6:1",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": 6.6,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 33.49,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-alfa-pro-lp-mod-8-1-1",
+    "name": "Alfa Pro LP мод 8,1:1",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": 8.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 38.27,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-black-bird-2-ls-r",
+    "name": "Black Bird 2 LS-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 25.81,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-charger-2-tc-r",
+    "name": "Charger 2 TC-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 28.93,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-energy-snb-r",
+    "name": "Energy SNB-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 12.29,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-jet-bullet-lp-hs-r",
+    "name": "Jet-Bullet LP HS-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 36,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-jet-series-js-r-stok-6-4-1",
+    "name": "Jet-Series JS-R сток 6,4:1",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": 6.4,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 38.72,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-jet-series-js-r-mod-8-0-1",
+    "name": "Jet-Series JS-R мод 8,0:1",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": 8,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 44.84,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-jet-series-jsg-r",
+    "name": "Jet-Series JSG-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 31.91,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-jet-series-jsghs-r",
+    "name": "Jet-Series JSGHS-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 34.92,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-jet-series-jsx-r",
+    "name": "Jet-Series JSX-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 36.69,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-jet-series-jsxhs-r",
+    "name": "Jet-Series JSXHS-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 34.92,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-jet-series-ulx-lp-r",
+    "name": "Jet-Series ULX LP-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 36.59,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-jsx-inferno-lp-r",
+    "name": "JSX Inferno LP-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 31.38,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-magma-xhs-lp",
+    "name": "Magma XHS-LP",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 32.09,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-magma-xhs-lp-9-years",
+    "name": "Magma XHS-LP 9-Years",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 35.08,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-mayor-2-tmc-r-stok-6-4-1",
+    "name": "Mayor 2 TMC-R сток 6,4:1",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": 6.4,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 27.9,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-nitro-2-tn-r",
+    "name": "Nitro 2 TN-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 21.49,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-olaf-hs-lp",
+    "name": "Olaf HS-LP",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 34.65,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-opyimus",
+    "name": "Opyimus",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 6.16,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-pillar-2-tpc-r",
+    "name": "Pillar 2 TPC-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 38.9,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-pillar-2-tpc-r-hs",
+    "name": "Pillar 2 TPC-R-HS",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 36.74,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-polestar-elt-lp-r",
+    "name": "Polestar ELT LP-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 40.51,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-pro-bird-2-ms-r",
+    "name": "Pro Bird 2 MS-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 34.54,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-profisher",
+    "name": "Profisher",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 8.03,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-riva-2-ms-r",
+    "name": "Riva 2 MS-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 19.51,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-silver-bird-2-ls-r",
+    "name": "Silver Bird 2 LS-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 26.68,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-skipper-lp-r-hs-stok-7-8-1",
+    "name": "Skipper LP-R HS сток 7,8:1",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": 7.8,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 43,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-spectrum-tsh-r-stok-7-1-1",
+    "name": "Spectrum TSH-R сток 7,1:1",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": 7.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 31.93,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-sportpro-x2-ms-r",
+    "name": "SportPro X2 MS-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 23.02,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-t-tech-stt-hsr",
+    "name": "T-Tech STT-HSR",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 30.21,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-t-tech-stt-r",
+    "name": "T-Tech STT-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 29.68,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-thunderbolt-ssp-hs-r",
+    "name": "Thunderbolt SSP HS-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 21.76,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-winner-2-lp-stok-6-3-1",
+    "name": "Winner 2 LP сток 6,3:1",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": 6.3,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 13.04,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-winner-ng-lp-hs",
+    "name": "Winner NG LP-HS",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 13.56,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-zero-2-z-r",
+    "name": "Zero 2 Z-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 43.41,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-zero-2-zhs-r",
+    "name": "Zero 2 ZHS-R",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 44.59,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-lp-zero-gs-zg-r-stok-7-1-1",
+    "name": "Zero GS ZG-R сток 7,1:1",
+    "type": "lp",
+    "size": null,
+    "testG": null,
+    "ratio": 7.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 56.56,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-altitude-10",
+    "name": "Altitude 10",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 46.12,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-altitude-20",
+    "name": "Altitude 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 53.37,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-argus-10",
+    "name": "Argus 10",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 61.96,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-argus-20",
+    "name": "Argus 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 64.49,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-argus-30",
+    "name": "Argus 30",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 64.97,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-billionare-10",
+    "name": "Billionare 10",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 78.86,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-billionare-20",
+    "name": "Billionare 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 79.54,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-billionare-30-ms",
+    "name": "Billionare 30 MS",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 88.14,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-borealica-30ds",
+    "name": "Borealica 30DS",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 450,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-california-40-mod-4-5-1",
+    "name": "California 40 мод. 4,5:1",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": 4.5,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 276,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-california-40-stok-2-4-1",
+    "name": "California 40 сток 2,4:1",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": 2.4,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 290,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-cardinal-10",
+    "name": "Cardinal 10",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 104.39,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-cardinal-20",
+    "name": "Cardinal 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 133.84,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-cardinal-20-2s",
+    "name": "Cardinal 20 2S",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 130.23,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-cardinal-30-2s",
+    "name": "Cardinal 30 2S",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 152.5,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-electro-raptor-20",
+    "name": "Electro Raptor 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 362,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-electro-raptor-40",
+    "name": "Electro Raptor 40",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 395,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-halibut-20",
+    "name": "Halibut 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 41.59,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-halibut-20-2s",
+    "name": "Halibut 20 2S",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 40.71,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-hamra-c-lw-10",
+    "name": "Hamra C-LW 10",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 38.75,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-hamra-c-lw-20",
+    "name": "Hamra C-LW 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 45.93,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-hamra-c-lw-30",
+    "name": "Hamra C-LW 30",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 52,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-isinga-10",
+    "name": "Isinga 10",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 48.11,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-isinga-20",
+    "name": "Isinga 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 55,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-isinga-30",
+    "name": "Isinga 30",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 63.83,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-narga-10",
+    "name": "Narga 10",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 27.65,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-narga-20",
+    "name": "Narga 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 29.6,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-narga-30",
+    "name": "Narga 30",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 33.22,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-oriental-20",
+    "name": "Oriental 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 87.13,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-oriental-30",
+    "name": "Oriental 30",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 87.1,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-oriental-noble-f20",
+    "name": "Oriental Noble F20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 90.38,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-oriental-noble-f30",
+    "name": "Oriental Noble F30",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 100.81,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-palomar-10",
+    "name": "Palomar 10",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 122.37,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-palomar-20",
+    "name": "Palomar 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 133.33,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-palomar-30",
+    "name": "Palomar 30",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 133.6,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-rigal-20-2s",
+    "name": "Rigal 20 2S",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 74.33,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-seagull-20",
+    "name": "Seagull 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 36.54,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-seagull-30",
+    "name": "Seagull 30",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 37.22,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-simplex-200",
+    "name": "Simplex 200",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 28.77,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-simplex-300",
+    "name": "Simplex 300",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 31.98,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-simplex-400",
+    "name": "Simplex 400",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 33.75,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-steelhead-c-10",
+    "name": "SteelHead C-10",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 47.42,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-steelhead-c-20",
+    "name": "SteelHead C-20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 49.67,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-steelhead-c-30",
+    "name": "SteelHead C-30",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 54.12,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-taiga-ltd-c-40-2s",
+    "name": "Taiga LTD C 40 2S",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 274,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-taiga-c-20",
+    "name": "Taiga C 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 94.44,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-taiga-c-30",
+    "name": "Taiga C 30",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 109.46,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-taiga-c-40",
+    "name": "Taiga C 40",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 136.13,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-tera-c-lw-20",
+    "name": "Tera C-LW 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 104.76,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-tera-c-lw-30",
+    "name": "Tera C-LW 30",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 132.06,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-tera-c-lw-40",
+    "name": "Tera C-LW 40",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 147.61,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-tera-l-ld-20",
+    "name": "Tera L-LD 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 121.9,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-tera-l-ld-30",
+    "name": "Tera L-LD 30",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 142.77,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-tera-l-ld-40",
+    "name": "Tera L-LD 40",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 157.72,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-tongar-20",
+    "name": "Tongar 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 173.25,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-tongar-20-ds",
+    "name": "Tongar 20 DS",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 173.25,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-tongar-2gen-20",
+    "name": "Tongar 2Gen 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 163.24,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-tongar-2gen-20-ds",
+    "name": "Tongar 2Gen 20 DS",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 166.25,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-triumph-30-2s",
+    "name": "Triumph 30 2S",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 400,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-triumph-30-2s-8-anniversary",
+    "name": "Triumph 30 2S 8-Anniversary",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 109.5,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-venga-c-30-2s",
+    "name": "Venga C 30 2S",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 295,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-venga-c-40-2s-9-anniversary",
+    "name": "Venga C 40 2S 9-Anniversary",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 365,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-winner-trolling-10",
+    "name": "Winner Trolling 10",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 10.84,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-winner-trolling-20",
+    "name": "Winner Trolling 20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 12.52,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-winner-trolling-30",
+    "name": "Winner Trolling 30",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 16.6,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-zodiac-s-10",
+    "name": "Zodiac С-10",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 26.7,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-power-zodiac-s-20",
+    "name": "Zodiac С-20",
+    "type": "power",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 25.32,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-billionare-50r-stok-5-1-1",
+    "name": "Billionare 50R сток 5,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 56.82,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-billionare-50r-mod-5-1-1",
+    "name": "Billionare 50R мод 5,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 71.05,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-billionare-50r-mod-4-6-1",
+    "name": "Billionare 50R мод 4,6:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 4.6,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 77.64,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-billionare-60r-stok-5-1-1",
+    "name": "Billionare 60R сток 5,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 71.05,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-billionare-60r-mod-5-1-1",
+    "name": "Billionare 60R мод 5,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 56.82,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-billionare-60r-mod-4-6-1",
+    "name": "Billionare 60R мод 4,6:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 4.6,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 77.64,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-black-box-zbb50-stok-5-9-1",
+    "name": "Black Box ZBB50 сток 5,9:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.9,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 37.14,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-black-box-zbb50-mod-4-8-1",
+    "name": "Black Box ZBB50 мод 4,8:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 4.8,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 52.39,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-black-box-zbb50-mod-5-9-1",
+    "name": "Black Box ZBB50 мод 5,9:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.9,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 39.87,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-black-box-zbb60-stok-5-9-1",
+    "name": "Black Box ZBB60 сток 5,9:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.9,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 39.87,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-black-box-zbb60-mod-4-8-1",
+    "name": "Black Box ZBB60 мод 4,8:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 4.8,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 52.39,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-black-box-zbb60-mod-5-9-1",
+    "name": "Black Box ZBB60 мод 5,9:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.9,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 37.14,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-castmaster-lgr1973-stok-3-2-1",
+    "name": "Castmaster LGR1973 сток 3,2:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 3.2,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 72.94,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-castmaster-lgr1973-mod-5-7-1",
+    "name": "Castmaster LGR1973 мод 5,7:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.7,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 65.42,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-compact-zc50",
+    "name": "Compact ZC50",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 33.42,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-imperial-r605-6-anniversary-el-ma-ro",
+    "name": "Imperial R605 6-Anniversary, El. Ma. Ro.",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 105.35,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-magellan-400-stok-5-2-1",
+    "name": "Magellan 400 сток 5,2:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.2,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 13.84,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-minister-2000-stok-4-5-1",
+    "name": "Minister 2000 сток 4,5:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 4.5,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 54.54,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-minister-cs-60-6-years",
+    "name": "Minister CS 60 6 Years",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 98.9,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-minister-cs-es60",
+    "name": "Minister CS ES60",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 143.56,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-minister-cs-pg60",
+    "name": "Minister CS PG60",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 116.64,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-minister-cs-sg60",
+    "name": "Minister CS SG60",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 110.97,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-minister-cs-sr60",
+    "name": "Minister CS SR60",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 103.5,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-phantom-super-stok-8-1-1",
+    "name": "Phantom Super сток 8,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 8.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 63.7,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-phantom-super-mod-10-1-1",
+    "name": "Phantom Super мод 10,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 10.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 38.2,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-ranger-z60",
+    "name": "Ranger Z60",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 78.01,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-ranger-z70",
+    "name": "Ranger Z70",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 88.19,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-rocket-jet-sg70-stok-4-2-1",
+    "name": "Rocket Jet SG70 сток 4,2:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 4.2,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 136,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-rocket-jet-sg70-mod-5-1-1",
+    "name": "Rocket Jet SG70 мод 5,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 134.57,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-rocket-jet-sg80-stok-3-9-1",
+    "name": "Rocket Jet SG80 сток 3,9:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 3.9,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 146.7,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-sal5000-stok-5-3-1",
+    "name": "SAL5000 сток 5,3:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.3,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 104.11,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-sal5000-mod-6-2-1",
+    "name": "SAL5000 мод 6,2:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 6.2,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 89.41,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-spider-400-r2-stok-5-1-1",
+    "name": "Spider 400-R2 сток 5,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 17.51,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-steelness-zms50",
+    "name": "Steelness ZMS50",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 82.99,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-steelness-zms60",
+    "name": "Steelness ZMS60",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 91.84,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-winner-round-ii",
+    "name": "Winner Round II",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 10.2,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-3-z-40-stok-5-3-1",
+    "name": "ZM-3 Z-40 сток 5,3:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.3,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 49.58,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-3-z-40-mod-5-1-1",
+    "name": "ZM-3 Z-40 мод 5,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 75.12,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-3-z-40-mod-7-1-1",
+    "name": "ZM-3 Z-40 мод 7,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 7.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 63.65,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-3-z-50-stok-5-3-1",
+    "name": "ZM-3 Z-50 сток 5,3:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.3,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 51.97,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-3-z-50-mod-5-1-1",
+    "name": "ZM-3 Z-50 мод 5,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 75.12,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-3-z-50-mod-7-1-1",
+    "name": "ZM-3 Z-50 мод 7,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 7.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 63.65,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-3-z-60-stok-5-3-1",
+    "name": "ZM-3 Z-60 сток 5,3:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.3,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 56.19,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-3-z-60-mod-5-1-1",
+    "name": "ZM-3 Z-60 мод 5,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 75.12,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-3-z-60-mod-7-1-1",
+    "name": "ZM-3 Z-60 мод 7,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 7.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 63.65,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-4-z-40-stok-6-3-1",
+    "name": "ZM-4 Z-40 сток 6,3:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 6.3,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 63.34,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-4-z-40-mod-5-1-1",
+    "name": "ZM-4 Z-40 мод 5,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 75.12,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-4-z-40-mod-7-1-1",
+    "name": "ZM-4 Z-40 мод 7,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 7.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 63.65,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-4-z-40-8-years",
+    "name": "ZM-4 Z-40 8-Years",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 63.65,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-4-z-50-stok-6-3-1",
+    "name": "ZM-4 Z-50 сток 6,3:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 6.3,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 68.95,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-4-z-50-mod-5-1-1",
+    "name": "ZM-4 Z-50 мод 5,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 75.12,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-4-z-50-mod-7-1-1",
+    "name": "ZM-4 Z-50 мод 7,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 7.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 63.65,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-4-z-60-stok-6-3-1",
+    "name": "ZM-4 Z-60 сток 6,3:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 6.3,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 74.19,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-4-z-60-mod-5-1-1",
+    "name": "ZM-4 Z-60 мод 5,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 75.12,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-4-z-60-mod-7-1-1",
+    "name": "ZM-4 Z-60 мод 7,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 7.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 63.65,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zm-4-z-60-8-years",
+    "name": "ZM-4 Z-60 8-Years",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": null,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 76.08,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zodiac-500-r2-stok-5-1-1",
+    "name": "Zodiac 500-R2 сток 5,1:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 5.1,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 29.25,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zodiac-500-r2-mod-4-3-1",
+    "name": "Zodiac 500-R2 мод 4,3:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 4.3,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 35.73,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
+  },
+  {
+    "id": "reel-baitcast-zodiac-500-r2-mod-6-2-1",
+    "name": "Zodiac 500-R2 мод 6,2:1",
+    "type": "multi",
+    "size": null,
+    "testG": null,
+    "ratio": 6.2,
+    "speed": null,
+    "dragKg": null,
+    "mechKg": 31.45,
+    "level": null,
+    "priceSilver": null,
+    "priceGold": null,
+    "waterproof": false,
+    "partial": true,
+    "sources": [
+      "potryasov"
+    ]
   }
 ]

@@ -1,4 +1,4 @@
-const collator = new Intl.Collator('ru');
+const collator = new Intl.Collator('ru', { numeric: true });
 
 /**
  * Сортирует копию массива по ключу. Пустые значения (null, undefined) всегда

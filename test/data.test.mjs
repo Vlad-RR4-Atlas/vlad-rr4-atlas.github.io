@@ -23,3 +23,11 @@ test('валидатор ловит типичные ошибки', async () => 
     assert.ok(text.includes(part), `ожидалась ошибка «${part}»`);
   }
 });
+
+test('все катушки из справочника прочности есть в таблице катушек', async () => {
+  const d = await readAll();
+  const norm = (s) => s.toLowerCase().replace(/[^a-zа-я0-9]/g, '');
+  const have = new Set(d.reels.map((r) => norm(r.name)));
+  const missing = d.gears.filter((g) => g.kind === 'reel' && !have.has(norm(g.name)));
+  assert.deepEqual(missing.map((g) => g.name), []);
+});

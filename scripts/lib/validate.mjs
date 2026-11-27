@@ -61,8 +61,10 @@ export function validate({ meta, sources, waters, spots, reels, rods, builds, ge
   reels.forEach((r, i) => {
     const at = `reels[${r.id ?? i}]`;
     if (!r.name) err(at, 'нет name');
-    if (!['spin', 'multi'].includes(r.type)) err(at, 'type: spin или multi');
-    for (const k of ['size', 'dragKg']) if (!isNum(r[k]) || r[k] <= 0) err(at, `${k} должно быть положительным числом`);
+    if (!['spin', 'multi', 'power', 'lp'].includes(r.type)) err(at, 'type: spin, multi, power или lp');
+    // У строк из справочника прочности (partial) известна только прочность механизма.
+    if (!r.partial) for (const k of ['size', 'dragKg']) if (!isNum(r[k]) || r[k] <= 0) err(at, `${k} должно быть положительным числом`);
+    if (r.partial && !isNum(r.mechKg)) err(at, 'у partial-строки должна быть mechKg');
     for (const k of ['testG', 'ratio', 'speed', 'mechKg', 'level', 'priceSilver', 'priceGold']) {
       if (!isNullOrNum(r[k]) || (r[k] !== null && r[k] < 0)) err(at, `${k} должно быть числом >= 0 или null`);
     }

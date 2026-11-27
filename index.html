@@ -72,6 +72,7 @@
   <div class="tips">
     <div><b>Фрикцион, кг</b>Сила, с которой катушка отдаёт леску. Леска или шнур должны выдерживать примерно столько же, иначе порвётся раньше, чем сработает тормоз.</div>
     <div><b>Мех., кг</b>Прочность механизма. Игроки советуют смотреть её в деталях катушки, а не только в общей сборке, и чинить при износе 20-30%.</div>
+    <div><b>Прочерки</b>Для части катушек известна только прочность механизма (справочник Potryasov Game). Фрикцион, цена и уровень у них пустые, пока их нет в открытых источниках.</div>
     <div><b>Размер и леска</b>По справочнику Potryasov Game: размеры 1000 и 2000 идут с леской 0,18 мм, 3000 и 4000 с 0,24 мм, 6000 и 8000 с 0,32 мм, от 10000 с 0,56 мм.</div>
   </div>
   <section class="panel gear" id="gearReels"></section>
@@ -80,6 +81,8 @@
       <div class="chips" id="reelType" role="group" aria-labelledby="reelTypeLabel">
         <button type="button" class="chip" data-type="spin" aria-pressed="true">Безынерционные</button>
         <button type="button" class="chip" data-type="multi" aria-pressed="false">Мультипликаторные</button>
+        <button type="button" class="chip" data-type="power" aria-pressed="false">Силовые</button>
+        <button type="button" class="chip" data-type="lp" aria-pressed="false">LP</button>
       </div>
     </div>
     <div class="field f-sm"><label for="reelSize">Размер</label><select id="reelSize"></select></div>

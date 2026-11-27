@@ -9,12 +9,12 @@ export function mountReels(data) {
 
   const columns = [
     { key: 'name', label: 'Название', firstDir: 1, cell: (r) => esc(r.name) + (r.waterproof ? '<span class="badge">защита</span>' : '') },
-    { key: 'size', label: 'Размер', cell: (r) => r.size },
-    { key: 'testG', label: 'Тест, г', cell: (r) => fmt(r.testG) },
-    { key: 'ratio', label: 'Пер. число', cell: (r) => fmt(r.ratio) },
+    { key: 'size', label: 'Размер', cell: (r) => r.size ?? '—' },
+    { key: 'testG', label: 'Тест, г', cell: (r) => fmtOrDash(r.testG) },
+    { key: 'ratio', label: 'Пер. число', cell: (r) => fmtOrDash(r.ratio) },
     { key: 'speed', label: 'Скорость, м/с', cell: (r) => fmtOrDash(r.speed, 2) },
-    { key: 'dragKg', label: 'Фрикцион, кг', cell: (r) => fmt(r.dragKg) },
-    { key: 'mechKg', label: 'Мех., кг', cell: (r) => fmt(r.mechKg, 2) },
+    { key: 'dragKg', label: 'Фрикцион, кг', cell: (r) => fmtOrDash(r.dragKg) },
+    { key: 'mechKg', label: 'Мех., кг', cell: (r) => fmtOrDash(r.mechKg, 2) },
     { key: 'level', label: 'Ур.', cell: (r) => r.level ?? '—' },
     { key: 'priceSilver', label: 'Серебро', cell: (r) => fmtOrDash(r.priceSilver, 0) },
     { key: 'priceGold', label: 'Золото', cell: (r) => fmtOrDash(r.priceGold, 2) },
@@ -26,10 +26,10 @@ export function mountReels(data) {
     return reels.filter((r) => r.type === type && (!size || r.size === Number(size)) && (!q || r.name.toLowerCase().includes(q)));
   };
 
-  const table = createDataTable($('#reelTable'), { columns, getRows: rows, sort: { key: 'dragKg', dir: -1 } });
+  const table = createDataTable($('#reelTable'), { columns, getRows: rows, sort: { key: 'name', dir: 1 } });
 
   function fillSizes() {
-    const sizes = [...new Set(reels.filter((r) => r.type === type).map((r) => r.size))].sort((a, b) => a - b);
+    const sizes = [...new Set(reels.filter((r) => r.type === type).map((r) => r.size).filter((x) => x != null))].sort((a, b) => a - b);
     $('#reelSize').innerHTML = '<option value="">Все размеры</option>' + sizes.map((s) => `<option value="${s}">${s}</option>`).join('');
   }
 
