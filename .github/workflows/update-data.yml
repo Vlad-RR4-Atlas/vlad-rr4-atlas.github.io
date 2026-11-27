@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  actions: write
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -25,3 +26,7 @@ jobs:
           git diff --cached --quiet && echo "Новых кандидатов нет" && exit 0
           git commit -m "Новые кандидаты из Telegram"
           git push
+          # Пуш от имени github-actions не запускает другие workflow, поэтому публикуем сайт явно.
+          gh workflow run pages.yml
+        env:
+          GH_TOKEN: ${{ github.token }}
