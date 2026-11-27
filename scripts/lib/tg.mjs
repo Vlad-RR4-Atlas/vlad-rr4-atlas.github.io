@@ -100,3 +100,34 @@ export function filterNew(candidates, known) {
     return true;
   });
 }
+
+/**
+ * Делит кандидатов на «обновления существующих точек» и «остальные».
+ * Обновление: тот же водоём, рыба и координата, но пост другой и новее. Тогда точка получает
+ * новый пост (текст, дата, скриншоты) и поднимается вверх списка. Наживку и прикормку берём из
+ * нового поста, если они там есть, иначе оставляем прежние. Id точки не меняется.
+ * @returns {{spots: object[], rest: object[], updated: string[]}}
+ */
+export function splitUpdates(candidates, spots) {
+  const byKey = new Map(spots.map((s, i) => [dedupeKey(s), i]));
+  const next = [...spots];
+  const rest = [];
+  const updated = [];
+  for (const c of candidates) {
+    const i = byKey.get(dedupeKey(c));
+    if (i === undefined) { rest.push(c); continue; }
+    const old = next[i];
+    const newer = c.postDate && (!old.postDate || c.postDate > old.postDate);
+    if (!newer || old.post === c.post) continue;
+    next[i] = {
+      ...old,
+      bait: c.bait ?? old.bait,
+      groundbait: c.groundbait ?? old.groundbait,
+      post: c.post, postText: c.postText, postDate: c.postDate,
+      photos: c.photos?.length ? c.photos : old.photos ?? [],
+      sources: [...new Set([...old.sources, ...c.sources])],
+    };
+    updated.push(old.id);
+  }
+  return { spots: next, rest, updated };
+}

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { extractSpots, filterNew, parseChannelHtml } from '../scripts/lib/tg.mjs';
+import { extractSpots, filterNew, parseChannelHtml, splitUpdates } from '../scripts/lib/tg.mjs';
 
 const html = `<div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message" data-post="rf4places/101">
 <div class="tgme_widget_message_text js-message_text" dir="auto">Старый острог, Карп трофей<br>Координаты: 21:67<br>Наживка: кукуруза &amp; бойл 20 мм</div>
@@ -66,4 +66,22 @@ test('applyPost добавляет текст и локальные картин
   assert.equal(next.postText, 'Текст');
   assert.equal(needsEnrich(next), false);
   assert.equal(needsEnrich({ id: 'b', photos: [] }), false);
+});
+
+test('splitUpdates обновляет существующую точку более новым постом и не трогает старые', () => {
+  const [a] = parseChannelHtml(html);
+  const [c] = extractSpots(a, ctx);
+  const known = { ...c, id: 'orig', post: 'https://t.me/rf4places/50', postDate: '2026-11-10T10:00:00+00:00', bait: 'старая', photos: ['data/photos/a.jpg'], sources: ['x'] };
+  const upd = splitUpdates([c], [known]);
+  assert.deepEqual(upd.updated, ['orig']);
+  assert.equal(upd.spots[0].id, 'orig');
+  assert.equal(upd.spots[0].post, c.post);
+  assert.equal(upd.spots[0].bait, c.bait);
+  assert.deepEqual(upd.spots[0].sources.sort(), ['tg-rf4places', 'x']);
+  assert.deepEqual(upd.rest, []);
+  // пост старше имеющегося и тот же пост ничего не меняют
+  assert.deepEqual(splitUpdates([c], [{ ...known, postDate: '2026-12-01T00:00:00+00:00' }]).updated, []);
+  assert.deepEqual(splitUpdates([c], [{ ...known, post: c.post }]).updated, []);
+  // новая точка уходит в остальные
+  assert.equal(splitUpdates([{ ...c, coord: '1:1' }], [known]).rest.length, 1);
 });

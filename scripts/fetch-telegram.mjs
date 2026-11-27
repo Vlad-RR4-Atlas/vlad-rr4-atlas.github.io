@@ -5,7 +5,7 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { parseArgs } from 'node:util';
 import { DATA_DIR, readAll, writeJson } from './lib/data-io.mjs';
-import { extractSpots, filterNew, parseChannelHtml } from './lib/tg.mjs';
+import { extractSpots, filterNew, parseChannelHtml, splitUpdates } from './lib/tg.mjs';
 
 const { values } = parseArgs({ options: { pages: { type: 'string', default: '2' }, 'dry-run': { type: 'boolean', default: false } } });
 const pages = Math.min(Math.max(Number(values.pages) || 1, 1), 10);
@@ -20,6 +20,8 @@ const state = await readJson('inbox-state.json', {});
 let inbox = await readJson('inbox.json', []);
 const fishNames = [...new Set(data.spots.map((s) => s.fish?.replace(/\s*\(.*\)/, '').trim()).filter(Boolean))];
 const report = [];
+let spots = data.spots;
+let updatedIds = [];
 
 for (const ch of channels) {
   if (!(ch.sourceId in data.sources)) { report.push(`${ch.handle}: источник ${ch.sourceId} не описан в sources.json, пропуск`); continue; }
@@ -41,10 +43,13 @@ for (const ch of channels) {
       if (before <= lastSeen) break;
       await sleep(1500);
     }
-    const fresh = filterNew(found, [...data.spots, ...inbox]);
+    const upd = splitUpdates(found, spots);
+    spots = upd.spots;
+    updatedIds.push(...upd.updated);
+    const fresh = filterNew(upd.rest, [...spots, ...inbox]);
     inbox = [...inbox, ...fresh];
     state[ch.handle] = maxId;
-    report.push(`${ch.handle}: новых постов ${seen}, кандидатов ${fresh.length}`);
+    report.push(`${ch.handle}: новых постов ${seen}, новых точек ${fresh.length}, обновлено существующих ${upd.updated.length}`);
   } catch (error) {
     report.push(`${ch.handle}: ошибка (${error.message}), канал пропущен до следующего запуска`);
   }
@@ -53,5 +58,10 @@ for (const ch of channels) {
 
 console.log(report.join('\n') || 'Каналов в data/channels.json нет.');
 if (values['dry-run']) process.exit(0);
+if (updatedIds.length) {
+  await writeJson('spots', spots);
+  await writeJson('meta', { ...data.meta, updatedAt: new Date().toISOString().slice(0, 10) });
+  console.log(`Обновлены точки: ${[...new Set(updatedIds)].join(', ')}`);
+}
 await writeJson('inbox', inbox);
 await writeJson('inbox-state', state);
