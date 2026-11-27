@@ -1,8 +1,11 @@
 name: Telegram inbox
 on:
   schedule:
-    - cron: '17 5 * * *'   # каждый день в 05:17 UTC
+    - cron: '*/10 * * * *'   # каждые 10 минут (GitHub может задерживать запуск на несколько минут)
   workflow_dispatch:
+concurrency:
+  group: update-data
+  cancel-in-progress: false
 permissions:
   contents: write
   actions: write
@@ -14,17 +17,20 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node scripts/fetch-telegram.mjs --pages 3
+      - run: node scripts/fetch-telegram.mjs --pages 1
       - run: node scripts/enrich-posts.mjs
+      # Новые точки сразу попадают на сайт с пометкой «не проверено».
+      - run: node scripts/promote.mjs --all
       - run: npm run check
-      # Очередь кандидатов на сайте не видна, поэтому коммитим её сразу в main, без pull request.
+      # Коммитим сразу в main, без pull request. Если изменений нет, ничего не публикуется.
       - name: Commit inbox
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/inbox.json data/inbox-state.json data/spots.json data/photos
+          git add data/inbox.json data/inbox-state.json data/spots.json data/meta.json data/photos
           git diff --cached --quiet && echo "Новых кандидатов нет" && exit 0
-          git commit -m "Новые кандидаты из Telegram"
+          git commit -m "Новые точки из Telegram"
+          git pull --rebase origin main
           git push
           # Пуш от имени github-actions не запускает другие workflow, поэтому публикуем сайт явно.
           gh workflow run pages.yml

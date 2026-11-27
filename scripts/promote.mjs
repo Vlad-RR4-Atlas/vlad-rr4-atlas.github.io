@@ -2,6 +2,7 @@
 //   npm run promote -- --list            показать кандидатов
 //   npm run promote -- --ids a,b,c       принять выбранные
 //   npm run promote -- --reject a,b      выбросить выбранные
+//   npm run promote -- --all             принять всех кандидатов (так работает автообновление)
 import { parseArgs } from 'node:util';
 import { readAll, writeJson } from './lib/data-io.mjs';
 import { validate } from './lib/validate.mjs';
@@ -9,17 +10,17 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { DATA_DIR } from './lib/data-io.mjs';
 
-const { values } = parseArgs({ options: { list: { type: 'boolean', default: false }, ids: { type: 'string' }, reject: { type: 'string' } } });
+const { values } = parseArgs({ options: { list: { type: 'boolean', default: false }, ids: { type: 'string' }, all: { type: 'boolean', default: false }, reject: { type: 'string' } } });
 const inbox = JSON.parse(await readFile(path.join(DATA_DIR, 'inbox.json'), 'utf8').catch(() => '[]'));
 const split = (s) => new Set((s ?? '').split(',').map((x) => x.trim()).filter(Boolean));
 
-if (values.list || (!values.ids && !values.reject)) {
+if (values.list || (!values.ids && !values.reject && !values.all)) {
   for (const c of inbox) console.log(`${c.id}\n  ${c.water} · ${c.fish ?? 'рыба?'} · ${c.coord} · ${c.bait ?? 'наживка?'} · прикормка: ${c.groundbait ?? '?'} · фото: ${(c.photos ?? []).length}\n  ${c.post}`);
   console.log(`Кандидатов: ${inbox.length}`);
   process.exit(0);
 }
 
-const accept = split(values.ids), reject = split(values.reject);
+const accept = values.all ? new Set(inbox.map((c) => c.id)) : split(values.ids), reject = split(values.reject);
 const data = await readAll();
 const take = inbox.filter((c) => accept.has(c.id)).map((spot) => ({ ...spot, verified: false, addedAt: new Date().toISOString().slice(0, 10) }));
 const next = { ...data, spots: [...data.spots, ...take] };

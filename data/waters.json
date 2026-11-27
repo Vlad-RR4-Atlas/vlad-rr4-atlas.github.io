@@ -1,17 +1,5 @@
 [
   {
-    "id": "dachnyy-prud",
-    "name": "Дачный пруд",
-    "level": null,
-    "species": null,
-    "recordG": null,
-    "summary": "Упоминается в списке локаций справочников. Данных об уровне и рыбе пока нет.",
-    "sources": [
-      "rf4rybalka",
-      "rf4stat"
-    ]
-  },
-  {
     "id": "komarinoe",
     "name": "Комариное",
     "level": 1,
