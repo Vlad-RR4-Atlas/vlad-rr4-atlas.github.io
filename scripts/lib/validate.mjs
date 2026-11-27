@@ -1,4 +1,5 @@
 // Проверка данных. Чистая функция: принимает объект с массивами и возвращает список ошибок.
+const GEAR_CATEGORIES = { reel: ['spin', 'power', 'baitcast', 'lp'], rod: ['float', 'spinning', 'bottom', 'sea', 'casting'] };
 const ID = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const COORD = /^\d{1,4}:\d{1,4}$/;
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
@@ -80,7 +81,9 @@ export function validate({ meta, sources, waters, spots, reels, rods, builds, ge
   gears.forEach((g, i) => {
     const at = `gears[${g.id ?? i}]`;
     if (!g.name) err(at, 'нет name');
-    if (!isNum(g.gearKg) || g.gearKg <= 0 || g.gearKg > 500) err(at, 'gearKg должно быть числом от 0 до 500');
+    if (!['reel', 'rod'].includes(g.kind)) err(at, 'kind: reel или rod');
+    if (!GEAR_CATEGORIES[g.kind]?.includes(g.category)) err(at, `category «${g.category}» не подходит для ${g.kind}`);
+    if (!isNum(g.strengthKg) || g.strengthKg <= 0 || g.strengthKg > 500) err(at, 'strengthKg должно быть числом от 0 до 500');
     if (!known(g.sources)) err(at, 'неизвестный источник');
   });
 

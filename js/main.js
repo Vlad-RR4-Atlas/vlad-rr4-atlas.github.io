@@ -55,7 +55,8 @@ async function start() {
     $('#sourceList').innerHTML = `Источники: ${sourcesHtml(linked, data.sources)}.`;
     const spotsView = mountSpots(data, { goTo: (v) => router.show(v) });
     mountReels(data);
-    mountGear(data);
+    mountGear(data, { kind: 'reel', root: '#gearReels' });
+    mountGear(data, { kind: 'rod', root: '#gearRods' });
     mountRods(data);
     mountBuilds(data);
     mountWaters(data, { onShowSpots: (id) => { spotsView.filterByWater(id); router.show('spots'); }, onOpenSpot: (id, from) => spotsView.openDetail(id, from) });

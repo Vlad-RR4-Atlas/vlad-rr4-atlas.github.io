@@ -74,17 +74,7 @@
     <div><b>Мех., кг</b>Прочность механизма. Игроки советуют смотреть её в деталях катушки, а не только в общей сборке, и чинить при износе 20-30%.</div>
     <div><b>Размер и леска</b>По справочнику Potryasov Game: размеры 1000 и 2000 идут с леской 0,18 мм, 3000 и 4000 с 0,24 мм, 6000 и 8000 с 0,32 мм, от 10000 с 0,56 мм.</div>
   </div>
-  <div class="panel gear" aria-labelledby="gearTitle">
-    <h3 id="gearTitle">Прочность шестерни с износом</h3>
-    <p class="lead">Выберите безынерционную катушку и укажите износ. В игре 30% прочности шестерни не изнашивается, поэтому при износе 50% остаётся не половина, а 65%.</p>
-    <div class="gear-form">
-      <div class="field f2"><label for="gearReel">Катушка</label><select id="gearReel"></select></div>
-      <div class="field f-sm"><label for="gearWear">Износ, %</label>
-        <input id="gearWear" type="number" min="0" max="100" step="1" value="0" inputmode="numeric">
-        <input id="gearWearR" type="range" min="0" max="100" step="1" value="0" aria-label="Износ, ползунок"></div>
-    </div>
-    <div id="gearOut" aria-live="polite"></div>
-  </div>
+  <section class="panel gear" id="gearReels"></section>
   <div class="bar">
     <div class="field"><span class="label" id="reelTypeLabel">Тип</span>
       <div class="chips" id="reelType" role="group" aria-labelledby="reelTypeLabel">
@@ -102,6 +92,7 @@
 <section id="v-rods" role="tabpanel" aria-labelledby="t-rods" hidden>
   <h2>Удилища</h2>
   <p class="lead">Болонские и джерковые удилища с тестом, строем и прочностью. Спиннинговые, фидерные, карповые и пикерные удилища в этот справочник пока не попали: их таблица на сайте-источнике не открылась целиком.</p>
+  <section class="panel gear" id="gearRods"></section>
   <div class="bar">
     <div class="field"><span class="label" id="rodTypeLabel">Тип</span>
       <div class="chips" id="rodType" role="group" aria-labelledby="rodTypeLabel">
