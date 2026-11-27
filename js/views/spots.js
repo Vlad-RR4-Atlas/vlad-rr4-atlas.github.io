@@ -35,6 +35,7 @@ export function mountSpots(data, { goTo }) {
     const fav = favs.has(s.id);
     const rows = [];
     if (s.bait) rows.push(['Наживка', s.bait]);
+    if (s.groundbait) rows.push(['Прикормка', s.groundbait]);
     if (s.clip) rows.push(['Клипса', s.clip]);
     if (s.note) rows.push(['Заметка', s.note]);
     if (!rows.length) rows.push(['Наживка', 'Автор не указал']);
@@ -51,8 +52,20 @@ export function mountSpots(data, { goTo }) {
       <h3>${esc(s.fish ?? 'Рыба не указана')}</h3>
       <div class="coordrow">${stamp}<button type="button" class="mini" data-chat="${esc(s.id)}">В чат</button></div>
       <dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl>
+      ${shots(s)}
       <div class="src srcline">Источник: ${sourcesHtml(s.sources, sources)}</div>
     </article>`;
+  }
+
+  /** Скриншоты из поста-источника (ссылки на CDN Telegram) и ссылка на сам пост. */
+  function shots(s) {
+    const photos = (s.photos ?? []).slice(0, 4);
+    if (!photos.length && !s.post) return '';
+    const thumbs = photos
+      .map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer"><img src="${esc(u)}" alt="Скриншот ${i + 1} из поста: рыба и сборка" loading="lazy" referrerpolicy="no-referrer"></a>`)
+      .join('');
+    const link = s.post ? `<a class="postlink" href="${esc(s.post)}" target="_blank" rel="noopener noreferrer">Открыть пост${photos.length ? ' со скриншотами' : ''}</a>` : '';
+    return `<div class="shots">${thumbs}${link}</div>`;
   }
 
   function render() {
@@ -98,6 +111,7 @@ export function mountSpots(data, { goTo }) {
     goTo('spots');
     const notes = [];
     if (spot.bait) notes.push(`Наживка: ${spot.bait}`);
+    if (spot.groundbait) notes.push(`прикормка: ${spot.groundbait}`);
     if (spot.clip) notes.push(`клипса ${spot.clip}`);
     if (spot.note) notes.push(spot.note);
     pickBox.hidden = false;

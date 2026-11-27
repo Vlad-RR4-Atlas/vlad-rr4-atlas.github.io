@@ -180,3 +180,10 @@ footer .srcs a{color:var(--accent)}
 .error{padding:18px;border:2px solid var(--accent);border-radius:6px;background:var(--surface);display:flex;flex-direction:column;gap:10px;align-items:flex-start}
 .error p{margin:0}
 @media (max-width:560px){.hero .eyebrow{padding-right:128px}}
+
+.shots{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.shots a:has(img){display:block;line-height:0;border:1px solid var(--line);overflow:hidden}
+.shots img{width:96px;height:72px;object-fit:cover;display:block;background:var(--surface2)}
+.shots img:hover{filter:brightness(1.08)}
+.postlink{font-size:13px;color:var(--water);text-underline-offset:3px}
+.shots img{font-size:10px;overflow:hidden}

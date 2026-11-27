@@ -14,14 +14,14 @@ const inbox = JSON.parse(await readFile(path.join(DATA_DIR, 'inbox.json'), 'utf8
 const split = (s) => new Set((s ?? '').split(',').map((x) => x.trim()).filter(Boolean));
 
 if (values.list || (!values.ids && !values.reject)) {
-  for (const c of inbox) console.log(`${c.id}\n  ${c.water} · ${c.fish ?? 'рыба?'} · ${c.coord} · ${c.bait ?? 'наживка?'}\n  ${c.post}`);
+  for (const c of inbox) console.log(`${c.id}\n  ${c.water} · ${c.fish ?? 'рыба?'} · ${c.coord} · ${c.bait ?? 'наживка?'} · прикормка: ${c.groundbait ?? '?'} · фото: ${(c.photos ?? []).length}\n  ${c.post}`);
   console.log(`Кандидатов: ${inbox.length}`);
   process.exit(0);
 }
 
 const accept = split(values.ids), reject = split(values.reject);
 const data = await readAll();
-const take = inbox.filter((c) => accept.has(c.id)).map(({ post, ...spot }) => ({ ...spot, note: spot.note ?? `Пост: ${post}`, verified: false }));
+const take = inbox.filter((c) => accept.has(c.id)).map((spot) => ({ ...spot, verified: false }));
 const next = { ...data, spots: [...data.spots, ...take] };
 const errors = validate(next);
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }

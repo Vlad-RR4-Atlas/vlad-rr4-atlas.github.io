@@ -47,6 +47,9 @@ export function validate({ meta, sources, waters, spots, reels, rods, builds }) 
     const hasPlace = typeof s.place === 'string' && s.place.length > 0;
     if (hasCoord === hasPlace) err(at, 'нужно ровно одно из полей coord (X:Y) или place');
     if (s.coord != null && !hasCoord) err(at, `координаты «${s.coord}» не в формате X:Y`);
+    if (s.photos !== undefined && !(Array.isArray(s.photos) && s.photos.length <= 8 && s.photos.every((u) => /^https:\/\//.test(u)))) err(at, 'photos: до 8 адресов https');
+    if (s.post != null && !/^https:\/\/t\.me\//.test(s.post)) err(at, 'post должен быть ссылкой https://t.me/…');
+    if (s.groundbait != null && typeof s.groundbait !== 'string') err(at, 'groundbait должен быть строкой');
     if (typeof s.verified !== 'boolean') err(at, 'verified должен быть true или false');
     if (!known(s.sources)) err(at, 'неизвестный источник');
   });

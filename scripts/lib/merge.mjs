@@ -39,6 +39,7 @@ export function mergeSpots({ existing, rows, waters, sourceId }) {
       coord,
       place: coord ? null : place,
       bait: row.bait || null,
+      groundbait: row.groundbait || null,
       clip: row.clip || null,
       note: row.note || null,
       verified: !/^(0|false|нет|no)$/i.test(row.verified ?? ''),

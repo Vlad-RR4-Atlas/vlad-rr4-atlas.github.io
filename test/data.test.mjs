@@ -16,8 +16,10 @@ test('валидатор ловит типичные ошибки', async () => 
   d.rods[0].testMinG = d.rods[0].testMaxG + 1;
   d.meta.updatedAt = '29.10.2026';
   d.builds[0].sources = ['nope'];
+  d.spots[4].photos = ['http://insecure/x.jpg'];
+  d.spots[5].post = 'https://example.com/p';
   const text = validate(d).join('\n');
-  for (const part of ['не найден', 'не в формате X:Y', 'повторяющийся id', 'ratio', 'testMinG', 'updatedAt', 'неизвестный источник']) {
+  for (const part of ['не найден', 'не в формате X:Y', 'повторяющийся id', 'ratio', 'testMinG', 'updatedAt', 'неизвестный источник', 'photos', 'post должен']) {
     assert.ok(text.includes(part), `ожидалась ошибка «${part}»`);
   }
 });

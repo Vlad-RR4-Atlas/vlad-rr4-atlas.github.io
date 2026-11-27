@@ -10,7 +10,7 @@ export function filterSpots(spots, { water = '', query = '', favs = new Set(), f
     if (water && s.water !== water) return false;
     if (favOnly && !favs.has(s.id)) return false;
     if (q) {
-      const haystack = [s.fish, s.bait, s.note].filter(Boolean).join(' ').toLowerCase();
+      const haystack = [s.fish, s.bait, s.groundbait, s.note].filter(Boolean).join(' ').toLowerCase();
       if (!haystack.includes(q)) return false;
     }
     return true;
@@ -21,6 +21,7 @@ export function filterSpots(spots, { water = '', query = '', favs = new Set(), f
 export function lineFor(spot, waterName) {
   const parts = [waterName, spot.fish ?? 'Рыба не указана', spot.coord ?? spot.place];
   if (spot.bait) parts.push(spot.bait);
+  if (spot.groundbait) parts.push(`прикормка: ${spot.groundbait}`);
   return parts.join(' · ');
 }
 

@@ -5,7 +5,6 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
-  pull-requests: write
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -16,13 +15,12 @@ jobs:
           node-version: 22
       - run: node scripts/fetch-telegram.mjs --pages 3
       - run: npm run check
-      - uses: peter-evans/create-pull-request@v7
-        with:
-          branch: bot/telegram-inbox
-          commit-message: 'Новые кандидаты из Telegram'
-          title: 'Новые кандидаты из Telegram'
-          body: |
-            Скрипт нашёл в публичных каналах посты с координатами. Они лежат в `data/inbox.json` и на сайте
-            не показываются. Проверьте каждую запись по ссылке на пост, затем примите нужные:
-            `npm run promote -- --ids id1,id2` и отклоните лишние: `npm run promote -- --reject id3`.
-          delete-branch: true
+      # Очередь кандидатов на сайте не видна, поэтому коммитим её сразу в main, без pull request.
+      - name: Commit inbox
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/inbox.json data/inbox-state.json
+          git diff --cached --quiet && echo "Новых кандидатов нет" && exit 0
+          git commit -m "Новые кандидаты из Telegram"
+          git push

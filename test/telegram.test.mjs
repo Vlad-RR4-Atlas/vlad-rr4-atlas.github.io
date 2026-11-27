@@ -31,10 +31,24 @@ test('падежи названия водоёма распознаются', ()
   const post = { id: 1, url: 'https://t.me/x/1', text: 'На Старом остроге карп, точка 10:44' };
   assert.equal(extractSpots(post, ctx)[0]?.water, 'staryy-ostrog');
 });
-test('короткое название рыбы не дублирует длинное', () => {
-  const post = { id: 2, url: 'https://t.me/x/2', text: 'Старый острог, усач короткоголовый, координаты 21:67' };
-  const spots = extractSpots(post, { ...ctx, fishNames: ['Усач', 'Усач короткоголовый'] });
-  assert.deepEqual(spots.map((s) => s.fish), ['Усач короткоголовый']);
+test('«Усач» и «Усач короткоголовый» это разные рыбы и не путаются', () => {
+  const names = { ...ctx, fishNames: ['Усач', 'Усач короткоголовый'] };
+  const only = { id: 2, url: 'https://t.me/x/2', text: 'Старый острог, усач короткоголовый, координаты 21:67' };
+  assert.deepEqual(extractSpots(only, names).map((s) => s.fish), ['Усач короткоголовый']);
+  const both = { id: 3, url: 'https://t.me/x/3', text: 'Старый острог: усач и усач короткоголовый, координаты 21:67' };
+  assert.deepEqual(extractSpots(both, names).map((s) => s.fish).sort(), ['Усач', 'Усач короткоголовый']);
+});
+test('прикормка отделена от наживки, фото берутся из поста', () => {
+  const html2 = `<div class="tgme_widget_message_wrap"><div class="tgme_widget_message" data-post="rf4places/7">
+  <a class="tgme_widget_message_photo_wrap" href="https://t.me/rf4places/7" style="width:800px;background-image:url('https://cdn4.cdn-telegram.org/file/a.jpg')"></a>
+  <a class="tgme_widget_message_photo_wrap" href="https://t.me/rf4places/7?single" style="background-image:url('https://cdn4.cdn-telegram.org/file/b.jpg')"></a>
+  <div class="tgme_widget_message_text">Старый острог, карп, координаты 21:67<br>Наживка: бойл 20 мм<br>Прикормка: кукуруза, конопля</div></div></div>`;
+  const [post] = parseChannelHtml(html2);
+  assert.deepEqual(post.photos, ['https://cdn4.cdn-telegram.org/file/a.jpg', 'https://cdn4.cdn-telegram.org/file/b.jpg']);
+  const [spot] = extractSpots(post, ctx);
+  assert.equal(spot.bait, 'бойл 20 мм');
+  assert.equal(spot.groundbait, 'кукуруза, конопля');
+  assert.equal(spot.photos.length, 2);
 });
 test('filterNew убирает уже известные точки и повторы', () => {
   const [a] = parseChannelHtml(html);
