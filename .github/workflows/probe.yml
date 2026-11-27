@@ -1,0 +1,22 @@
+name: Probe source
+on:
+  workflow_dispatch:
+    inputs:
+      base:
+        description: Адрес сайта, например https://en.rf4-stat.ru
+        required: true
+      paths:
+        description: Пути через пробел, например /fish/r_carp_albino /fishing/
+        required: false
+        default: ''
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/probe-site.mjs "${{ inputs.base }}" ${{ inputs.paths }}
