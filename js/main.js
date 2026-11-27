@@ -56,7 +56,7 @@ async function start() {
     mountReels(data);
     mountRods(data);
     mountBuilds(data);
-    mountWaters(data, { onShowSpots: (id) => { spotsView.filterByWater(id); router.show('spots'); } });
+    mountWaters(data, { onShowSpots: (id) => { spotsView.filterByWater(id); router.show('spots'); }, onOpenSpot: (id, from) => spotsView.openDetail(id, from) });
     mountBuilder(data);
     status.hidden = true;
   } catch (error) {

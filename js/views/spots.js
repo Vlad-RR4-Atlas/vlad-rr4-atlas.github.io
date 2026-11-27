@@ -248,5 +248,5 @@ export function mountSpots(data, { goTo }) {
   $('#rollBtn2').addEventListener('click', pick);
 
   render();
-  return { filterByWater(id) { select.value = id; render(); } };
+  return { filterByWater(id) { select.value = id; render(); }, openDetail };
 }
