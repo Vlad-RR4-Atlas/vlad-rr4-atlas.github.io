@@ -50,7 +50,7 @@ rr4farmtrof.ru (Мальцевидзе) и справочников Potryasov Ga
 
 ```
 npm run promote -- --list
-npm run promote -- --ids id1,id2      # в справочник с пометкой «не подтверждено»
+npm run promote -- --ids id1,id2      # в справочник (поле verified:false сохраняется в данных, на сайте метка не показывается)
 npm run promote -- --reject id3
 ```
 

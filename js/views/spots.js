@@ -47,7 +47,6 @@ export function mountSpots(data, { goTo }) {
     return `<article class="card spot" data-id="${esc(s.id)}">
       <div class="spot-top">${tierBars(waterById.get(s.water)?.level)}
         <span class="water-tag">${esc(waterName(s.water))}</span>
-        ${s.verified ? '' : '<span class="badge badge-warn" title="Эту точку не подтвердили игроки">не подтверждено</span>'}
         ${freshness(s) ? `<time class="age" datetime="${esc(s.postDate ?? s.addedAt)}">${esc(new Date(freshness(s)).toLocaleDateString('ru-RU'))}</time>` : ''}
         <button type="button" class="fav" data-fav="${esc(s.id)}" aria-pressed="${fav}" aria-label="В избранное">${STAR_ICON}</button>
       </div>
@@ -91,8 +90,7 @@ export function mountSpots(data, { goTo }) {
       <div class="coordrow">${s.coord
         ? `<span class="coord">${CROSS_ICON}<span>${esc(s.coord)}</span></span><button type="button" class="mini" data-copy="${esc(s.coord)}">Копировать</button>`
         : `<span class="coord coord-text">${esc(s.place)}</span>`}
-        <button type="button" class="mini" data-chat="${esc(s.id)}">В чат</button>
-        ${s.verified ? '' : '<span class="badge badge-warn">не подтверждено</span>'}</div>
+        <button type="button" class="mini" data-chat="${esc(s.id)}">В чат</button></div>
       <dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl>
       ${s.postText ? `<h4>Описание из поста${date}</h4><p class="posttext">${esc(s.postText)}</p>` : ''}
       ${photos ? `<h4>Скриншоты</h4><div class="gallery">${photos}</div>` : ''}
