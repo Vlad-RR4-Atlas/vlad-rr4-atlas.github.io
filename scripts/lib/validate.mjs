@@ -93,6 +93,7 @@ export function validate({ meta, sources, waters, spots, reels, rods, builds, ge
   builds.forEach((b, i) => {
     const at = `builds[${b.id ?? i}]`;
     for (const k of ['title', 'purpose', 'rod', 'reel', 'line', 'leader', 'lures']) if (!b[k]) err(at, `нет ${k}`);
+    if (b.totalSilver != null && !(isNum(b.totalSilver) && b.totalSilver > 0)) err(at, 'totalSilver должно быть положительным числом');
     if (!known(b.sources)) err(at, 'неизвестный источник');
   });
 

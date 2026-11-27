@@ -31,3 +31,13 @@ test('все катушки из справочника прочности ес�
   const missing = d.gears.filter((g) => g.kind === 'reel' && !have.has(norm(g.name)));
   assert.deepEqual(missing.map((g) => g.name), []);
 });
+
+test('расчётные сборки актуальны и подходят по тесту, уровню и цене', async () => {
+  const { generateBuilds } = await import('../scripts/lib/gen-builds.mjs');
+  const d = await readAll();
+  const fresh = generateBuilds(d);
+  const saved = d.builds.filter((b) => b.calculated);
+  assert.ok(fresh.length >= 4);
+  assert.deepEqual(saved, fresh, 'запустите npm run builds');
+  for (const b of fresh) assert.ok(b.totalSilver > 0 && b.level > 0);
+});

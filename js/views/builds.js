@@ -1,6 +1,6 @@
 // Раздел «Готовые сборки».
 import { $ } from '../dom.js';
-import { esc, plural } from '../lib/format.js';
+import { esc, fmt, plural } from '../lib/format.js';
 import { sourcesHtml } from './shared.js';
 
 export function mountBuilds(data) {
@@ -9,13 +9,14 @@ export function mountBuilds(data) {
 
   function card(b) {
     return `<article class="card">
-      <div><div class="water-tag">${esc(b.purpose)}</div><h3>${esc(b.title)}</h3></div>
+      <div><div class="water-tag">${esc(b.purpose)}</div><h3>${esc(b.title)}</h3>${b.calculated ? '<span class="badge">расчёт по таблицам сайта</span>' : ''}</div>
       <dl>
         <dt>Удилище</dt><dd>${esc(b.rod)}</dd>
         <dt>Катушка</dt><dd>${esc(b.reel)}</dd>
         <dt>Леска</dt><dd>${esc(b.line)}</dd>
         <dt>Поводок</dt><dd>${esc(b.leader)}</dd>
-        <dt>Приманки</dt><dd>${esc(b.lures)}</dd>
+        <dt>${b.calculated ? 'Оснастка' : 'Приманки'}</dt><dd>${esc(b.lures)}</dd>
+        ${b.totalSilver != null ? `<dt>Итого</dt><dd>${fmt(b.totalSilver, 0)} серебра, нужен ур. ${esc(b.level)}</dd>` : ''}
       </dl>
       <div class="src srcline">Источник: ${sourcesHtml(b.sources, sources)}</div>
     </article>`;

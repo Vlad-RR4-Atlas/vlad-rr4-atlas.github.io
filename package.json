@@ -14,6 +14,7 @@
     "check": "npm run validate && npm test",
     "build": "node scripts/build.mjs",
     "import": "node scripts/import.mjs",
+    "builds": "node scripts/generate-builds.mjs",
     "fetch": "node scripts/fetch-telegram.mjs",
     "promote": "node scripts/promote.mjs",
     "build:flat": "node scripts/build-flat.mjs"

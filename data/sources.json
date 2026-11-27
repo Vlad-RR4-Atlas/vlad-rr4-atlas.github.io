@@ -70,5 +70,9 @@
   "potryasov": {
     "name": "Potryasov Game, калькулятор прочности",
     "url": "https://potryasovgame.ru/page114271846.html"
+  },
+  "atlas": {
+    "name": "Расчёт Атласа по таблицам сайта",
+    "url": null
   }
 }
