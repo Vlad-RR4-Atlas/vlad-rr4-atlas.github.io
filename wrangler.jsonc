@@ -1,0 +1,8 @@
+{
+  // Публикация сайта на Cloudflare: раздаём только готовую сборку из dist/ (её делает `npm run build`).
+  "name": "vlad-rr4-atlas-github-io",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist"
+  }
+}
